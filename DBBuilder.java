@@ -13,11 +13,18 @@ import java.util.List;
 public class DBBuilder {
     final static String url = "jdbc:mysql://localhost:3306/";
 
+    /**
+     * Creates the database.
+     */
     public static void createDatabase() {
         List<String[]> csvArray = readIntoArray();
         putDataIntoDb(csvArray);
     }
 
+    /**
+     * Reads csv file into list full of arrays
+     * @return list containing csv values
+     */
     public static List<String[]> readIntoArray() {
         String myCsvPath = "38636387.csv";
 
@@ -37,69 +44,15 @@ public class DBBuilder {
         return null;
     }
 
+    /**
+     * Puts the data into the database
+     * @param csvList list containing csv data
+     */
     public static void putDataIntoDb(List<String[]> csvList) {
         // establish connection
         try(Connection connection = DriverManager.getConnection(url)) {
             // put table DDL statements into string var
-            String refTable = "Referees (" +
-                    "Referee_id INT PRIMARY KEY," +
-                    "Referee_name VARCHAR(50) NOT NULL" +
-                    ")";
-
-            String gamesTable = "Games (" +
-                    "Game_id INT PRIMARY KEY," +
-                    "Date VARCHAR(10) NOT NULL," +
-                    "Time VARCHAR(10) NOT NULL," +
-                    "Location VARCHAR(50) NOT NULL," +
-                    "Referee_id INT NOT NULL," +
-                    "FOREIGN KEY (Referee_id) REFERENCES Referees(Referee_id) ON DELETE RESTRICT" +
-                    ")";
-
-            String teamsTable = "Teams (" +
-                    "Team_name VARCHAR(50) PRIMARY KEY," +
-                    "Manager VARCHAR(50) NOT NULL," +
-                    "Owner VARCHAR (50) NOT NULL" +
-                    ")";
-
-            String playsTable = "PLAYS (" +
-                    "Team_name VARCHAR(50)," +
-                    "Game_id INT," +
-                    "PRIMARY KEY (Team_name, Game_id)," +
-                    "FOREIGN KEY (Team_name) REFERENCES Teams(Team_name) ON DELETE RESTRICT," +
-                    "FOREIGN KEY (Game_id) REFERENCES Games(Game_id) ON DELETE CASCADE" +
-                    ")";
-
-            String playersTable = "Players (" +
-                    "Player_id INT PRIMARY KEY," +
-                    "First_name VARCHAR(50) NOT NULL," +
-                    "Last_name VARCHAR(50) NOT NULL," +
-                    "Age INT NOT NULL," +
-                    "Position VARCHAR(50) NOT NULL," +
-                    "Nationality VARCHAR(50) NOT NULL" +
-                    ")";
-
-            String playsForTable = "PLAYSFOR (" +
-                    "Team_name VARCHAR(50) PRIMARY KEY," +
-                    "Player_id INT," +
-                    "FOREIGN KEY (Team_name) REFERENCES Teams(Team_name) ON DELETE CASCADE," +
-                    "FOREIGN KEY (Player_id) REFERENCES Players(Player_id) ON DELETE CASCADE" +
-                    ")";
-
-            String sponsorsTable = "Sponsors (" +
-                    "Sponsor_id INT PRIMARY KEY," +
-                    "Sponsor_name VARCHAR(50) NOT NULL" +
-                    ")";
-
-            String supportsTable = "SUPPORTS (" +
-                    "Sponsor_id INT," +
-                    "Team_name VARCHAR(50)," +
-                    "PRIMARY KEY (Sponsor_id, Team_name)," +
-                    "FOREIGN KEY (Sponsor_id) REFERENCES Sponsors(Sponsor_id) ON DELETE CASCADE," +
-                    "FOREIGN KEY (Team_name) REFERENCES Teams(Team_name) ON DELETE CASCADE" +
-                    ")";
-
-            String[] allTables = {refTable, gamesTable, teamsTable, playsTable, playersTable, playsForTable,
-                    sponsorsTable, supportsTable};
+            String[] allTables = getAllTables();
 
             // make statements
             try(Statement statement = connection.createStatement()) {
@@ -138,13 +91,80 @@ public class DBBuilder {
 
         
     }
+
+    /**
+     * Gets all tables in DDL statements
+     * @return Array of strings for each table
+     */
+    private static String[] getAllTables() {
+        String refTable = "Referees (" +
+                "Referee_id INT PRIMARY KEY," +
+                "Referee_name VARCHAR(50) NOT NULL" +
+                ")";
+
+        String gamesTable = "Games (" +
+                "Game_id INT PRIMARY KEY," +
+                "Date VARCHAR(10) NOT NULL," +
+                "Time VARCHAR(10) NOT NULL," +
+                "Location VARCHAR(50) NOT NULL," +
+                "Referee_id INT NOT NULL," +
+                "FOREIGN KEY (Referee_id) REFERENCES Referees(Referee_id) ON DELETE RESTRICT" +
+                ")";
+
+        String teamsTable = "Teams (" +
+                "Team_name VARCHAR(50) PRIMARY KEY," +
+                "Manager VARCHAR(50) NOT NULL," +
+                "Owner VARCHAR (50) NOT NULL" +
+                ")";
+
+        String playsTable = "PLAYS (" +
+                "Team_name VARCHAR(50)," +
+                "Game_id INT," +
+                "PRIMARY KEY (Team_name, Game_id)," +
+                "FOREIGN KEY (Team_name) REFERENCES Teams(Team_name) ON DELETE RESTRICT," +
+                "FOREIGN KEY (Game_id) REFERENCES Games(Game_id) ON DELETE CASCADE" +
+                ")";
+
+        String playersTable = "Players (" +
+                "Player_id INT PRIMARY KEY," +
+                "First_name VARCHAR(50) NOT NULL," +
+                "Last_name VARCHAR(50) NOT NULL," +
+                "Age INT NOT NULL," +
+                "Position VARCHAR(50) NOT NULL," +
+                "Nationality VARCHAR(50) NOT NULL" +
+                ")";
+
+        String playsForTable = "PLAYSFOR (" +
+                "Team_name VARCHAR(50) PRIMARY KEY," +
+                "Player_id INT," +
+                "FOREIGN KEY (Team_name) REFERENCES Teams(Team_name) ON DELETE CASCADE," +
+                "FOREIGN KEY (Player_id) REFERENCES Players(Player_id) ON DELETE CASCADE" +
+                ")";
+
+        String sponsorsTable = "Sponsors (" +
+                "Sponsor_id INT PRIMARY KEY," +
+                "Sponsor_name VARCHAR(50) NOT NULL" +
+                ")";
+
+        String supportsTable = "SUPPORTS (" +
+                "Sponsor_id INT," +
+                "Team_name VARCHAR(50)," +
+                "PRIMARY KEY (Sponsor_id, Team_name)," +
+                "FOREIGN KEY (Sponsor_id) REFERENCES Sponsors(Sponsor_id) ON DELETE CASCADE," +
+                "FOREIGN KEY (Team_name) REFERENCES Teams(Team_name) ON DELETE CASCADE" +
+                ")";
+
+        return new String[]{refTable, gamesTable, teamsTable, playsTable, playersTable, playsForTable,
+                sponsorsTable, supportsTable};
+    }
+
     /**
      * Checks if a value already exists in a table.
-     * @param <T> ambiguous type
+     * @param connection sql connection to use
      * @param tableName name of table to check
      * @param column_name name of column to check
      * @param column_value name of value to check
-     * @return true if already exists, false if not
+     * @return true if not in table, false if it is
      */
     public static <T> boolean notInTable(Connection connection, String tableName, String column_name, T column_value) {
         String sql = String.format("SELECT * FROM %s WHERE %s = ?", tableName, column_name);
@@ -158,12 +178,7 @@ public class DBBuilder {
             }
 
             try(ResultSet resultSet = preparedStatement.executeQuery()) {
-                if(resultSet.next()) {
-                    return false;
-                }
-                else {
-                    return true;
-                }
+                return !resultSet.next();
             }
         } catch(SQLException e) {
             throw new RuntimeException(e);
