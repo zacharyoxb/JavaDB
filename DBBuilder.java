@@ -148,11 +148,7 @@ public class DBBuilder {
      */
     public static <T> boolean notInTable(Connection connection, String tableName, String column_name, T column_value) {
         String sql = String.format("SELECT * FROM %s WHERE %s = ?", tableName, column_name);
-        try(Statement statement = connection.createStatement()) {
-            statement.executeUpdate("USE LaLiga");
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+
         try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
             // type check
             if(column_value.getClass() == Integer.class) {
