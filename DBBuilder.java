@@ -114,13 +114,23 @@ public class DBBuilder {
             for(String[] row : csvList) {
                 // check if ref entry already exists: if not, add it
                 if(!isInTable("Referees", "Referee_id", Integer.parseInt(row[0]))) {
-                    String insertString = "INSERT INTO Referee (Referee_id, Referee_name) VALUES (?, ?)";
+                    String insertString = "INSERT INTO Referees (Referee_id, Referee_name) VALUES (?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
                         preparedStatement.setInt(1, Integer.parseInt(row[0]));
                         preparedStatement.setString(2, row[1]);
+                        preparedStatement.executeUpdate();
                     }
                 }
-
+                // check if teams entry already exists: if not, add it
+                if(!isInTable("Teams", "Team_name", row[12])) {
+                    String insertString = "INSERT INTO Teams (Team_name, Manager, Owner) VALUES (?, ?, ?)";
+                    try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
+                        preparedStatement.setString(1, row[12]);
+                        preparedStatement.setString(2, row[13]);
+                        preparedStatement.setString(3, row[14]);
+                        preparedStatement.executeUpdate();
+                    }
+                }
             }
         } catch(SQLException e) {
             e.printStackTrace();
