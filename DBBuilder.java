@@ -3,6 +3,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
@@ -107,9 +109,60 @@ public class DBBuilder {
                     statement.executeUpdate("CREATE TABLE IF NOT EXISTS "+ table);
                 }
             }
+            
+            // Go through first time: add all teams and their players/sponsors
+            for(String[] row : csvList) {
+                // check if ref entry already exists: if not, add it
+                if(!isInTable("Referee", "Referee_id", Integer.parseInt(row[0]))) {
+                    String insertString = "INSERT INTO Referee (Referee_id, Referee_name) VALUES (?, ?)";
+                    try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
+                        preparedStatement.setInt(1, Integer.parseInt(row[0]));
+                        preparedStatement.setString(2, row[1]);
+                    }
+                }
+
+            }
         } catch(SQLException e) {
             e.printStackTrace();
         }
+
+        
+    }
+    /**
+     * Checks if a value already exists in a table.
+     * @param <T> ambiguous type
+     * @param tableName name of table to check
+     * @param column_name name of column to check
+     * @param column_value name of value to check
+     * @return true if already exists, false if not
+     */
+    public static <T> boolean isInTable(String tableName, String column_name, T column_value) {
+        String sql = String.format("SELECT * FROM %s WHERE %s = ?", tableName, column_name);
+
+        try(Connection connection = DriverManager.getConnection(url)) {
+            try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+                // type check
+                if(column_value.getClass() == Integer.class) {
+                    preparedStatement.setInt(1, (Integer) column_value);
+                } else if(column_value.getClass() == String.class) {
+                    preparedStatement.setString(1, (String) column_value);
+                }
+
+                try(ResultSet resultSet = preparedStatement.executeQuery()) {
+                    if(resultSet.next()) {
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+            } catch(SQLException e) {
+                e.printStackTrace();
+            }
+        } catch(SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
     }
 
     public static void main(String[] args) {
