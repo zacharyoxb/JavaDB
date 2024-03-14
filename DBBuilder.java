@@ -39,9 +39,8 @@ public class DBBuilder {
             }
             return csvList;
         } catch(IOException e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
-        return null;
     }
 
     /**
@@ -65,7 +64,7 @@ public class DBBuilder {
             
             // Go through first time: add all teams and their players/sponsors
             for(String[] row : csvList) {
-                // check if ref entry already exists: if not, add it
+                // add to Referees table
                 if(notInTable(connection, "Referees", "Referee_id", Integer.parseInt(row[0]))) {
                     String insertString = "INSERT INTO Referees (Referee_id, Referee_name) VALUES (?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
@@ -74,7 +73,7 @@ public class DBBuilder {
                         preparedStatement.executeUpdate();
                     }
                 }
-                // check if teams entry already exists: if not, add it
+                // add to Teams table
                 if(notInTable(connection, "Teams", "Team_name", row[12])) {
                     String insertString = "INSERT INTO Teams (Team_name, Manager, Owner) VALUES (?, ?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
@@ -84,12 +83,96 @@ public class DBBuilder {
                         preparedStatement.executeUpdate();
                     }
                 }
-            }
-        } catch(SQLException e) {
-            e.printStackTrace();
-        }
 
-        
+                // add to Sponsors table
+                if(notInTable(connection, "Sponsors", "Sponsor_id", row[16])) {
+                    String insertString = "INSERT INTO Sponsors (Sponsor_id, Sponsor_name) VALUES (?, ?)";
+                    try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
+                        preparedStatement.setInt(1, Integer.parseInt(row[16]));
+                        preparedStatement.setString(2, row[17]);
+                        preparedStatement.executeUpdate();
+                    }
+                }
+
+                // add to SUPPORTS table
+                if(notInRelationalTable(connection, "SUPPORTS", "Sponsor_id", "Team_name",
+                        row[16], row[12])) {
+                    String insertString = "INSERT INTO SUPPORTS (Sponsor_id, Team_name) VALUES (?, ?)";
+                    try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
+                        preparedStatement.setInt(1, Integer.parseInt(row[16]));
+                        preparedStatement.setString(2, row[12]);
+                        preparedStatement.executeUpdate();
+                    }
+                }
+
+                // add to Players table
+                if(notInTable(connection, "Players", "Player_id", row[6])) {
+                    String insertString = "INSERT INTO Player (Player_id, First_name, Last_name, Age, Position, " +
+                            "Nationality) VALUES (?, ?, ?, ?, ?, ?)";
+                    try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
+                        preparedStatement.setInt(1, Integer.parseInt(row[6]));
+                        preparedStatement.setString(2, row[7]);
+                        preparedStatement.setString(3, row[8]);
+                        preparedStatement.setInt(4, Integer.parseInt(row[9]));
+                        preparedStatement.setString(5, row[10]);
+                        preparedStatement.setString(6, row[11]);
+                        preparedStatement.executeUpdate();
+                    }
+                }
+
+                // add to PLAYSFOR table
+                if(notInRelationalTable(connection, "PLAYSFOR", "Player_id", "Team_name",
+                        row[6], row[12])) {
+                    String insertString = "INSERT INTO PLAYSFOR (Teams_name, Player_id) VALUES (?, ?)";
+                    try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
+                        preparedStatement.setString(1, row[6]);
+                        preparedStatement.setInt(2, Integer.parseInt(row[12]));
+                        preparedStatement.executeUpdate();
+                    }
+                }
+
+                // add to Games table
+                if(notInTable(connection, "Games", "Game_id", row[2])) {
+                    String insertString = "INSERT INTO Games (Game_id, Date, Time, Location) VALUES (?, ?, ?, ?)";
+                    try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
+                        preparedStatement.setInt(1, Integer.parseInt(row[2]));
+                        preparedStatement.setString(2, row[3]);
+                        preparedStatement.setString(3, row[4]);
+                        preparedStatement.setString(4, row[5]);
+                        preparedStatement.executeUpdate();
+                    }
+                }
+
+                // add to PLAYS table
+                if(notInRelationalTable(connection, "PLAYS", "Team_name", "Game_id",
+                        row[12], row[2])) {
+                    String insertString = "INSERT INTO PLAYS (Team_name, Game_id) VALUES (?, ?)";
+                    try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
+                        preparedStatement.setString(1, row[12]);
+                        preparedStatement.setInt(2, Integer.parseInt(row[2]));
+                        preparedStatement.executeUpdate();
+                    }
+                }
+            }
+            // REMOVE LATER
+            String sql = "SELECT * FROM Games";
+            try(PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+                try(ResultSet resultSet = preparedStatement.executeQuery()) {
+                    while(resultSet.next()) {
+                        int gameId = resultSet.getInt(1);
+                        String date = resultSet.getString(2);
+                        String time = resultSet.getString(3);
+                        String location = resultSet.getString(4);
+                        System.out.printf("Game id: %d, Date: %s, Time: %s, Location: %s",
+                                gameId, date, time, location);
+                    }
+                }
+            }
+
+
+        } catch(SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     /**
@@ -162,19 +245,56 @@ public class DBBuilder {
      * Checks if a value already exists in a table.
      * @param connection sql connection to use
      * @param tableName name of table to check
-     * @param column_name name of column to check
-     * @param column_value name of value to check
+     * @param columnName name of column to check
+     * @param columnValue value to check
      * @return true if not in table, false if it is
      */
-    public static <T> boolean notInTable(Connection connection, String tableName, String column_name, T column_value) {
-        String sql = String.format("SELECT * FROM %s WHERE %s = ?", tableName, column_name);
+    public static <T> boolean notInTable(Connection connection, String tableName, String columnName, T columnValue) {
+        String sql = String.format("SELECT * FROM %s WHERE %s = ?", tableName, columnName);
 
         try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
             // type check
-            if(column_value.getClass() == Integer.class) {
-                preparedStatement.setInt(1, (Integer) column_value);
-            } else if(column_value.getClass() == String.class) {
-                preparedStatement.setString(1, (String) column_value);
+            if(columnValue.getClass() == Integer.class) {
+                preparedStatement.setInt(1, (Integer) columnValue);
+            } else if(columnValue.getClass() == String.class) {
+                preparedStatement.setString(1, (String) columnValue);
+            }
+
+            try(ResultSet resultSet = preparedStatement.executeQuery()) {
+                return !resultSet.next();
+            }
+        } catch(SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    /**
+     * Checks if a composite key set already exists in a relational table.
+     * @param connection sql connection to use
+     * @param tableName name of table to check
+     * @param keyName1 name of first key to check
+     * @param keyName2 name of second key to check
+     * @param keyValue1 first value to check
+     * @param keyValue2 second value to check
+     * @return true if not in relational table, false if it is
+     */
+    public static <T> boolean notInRelationalTable(Connection connection, String tableName, String keyName1,
+                                                   String keyName2, T keyValue1, T keyValue2) {
+        String sql = String.format("SELECT * FROM %s WHERE %s = ? AND %s = ?", tableName, keyName1, keyName2);
+
+        try(PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+            // key 1
+            if(keyValue1.getClass() == Integer.class) {
+                preparedStatement.setInt(1, (Integer) keyValue1);
+            } else if(keyValue1.getClass() == String.class) {
+                preparedStatement.setString(1, (String) keyValue2);
+            }
+
+            // key 2
+            if(keyValue2.getClass() == Integer.class) {
+                preparedStatement.setInt(2, (Integer) keyValue2);
+            } else if(keyValue2.getClass() == String.class) {
+                preparedStatement.setString(2, (String) keyValue2);
             }
 
             try(ResultSet resultSet = preparedStatement.executeQuery()) {
