@@ -24,8 +24,8 @@ public class DBBuilder {
         List<String[]> csvList = new ArrayList<>();
 
         try(BufferedReader br = new BufferedReader(new FileReader(myCsvPath))) {
+            br.readLine(); // skip attr line
             String currentLine;
-            br.lines().skip(1);
             while((currentLine = br.readLine()) != null) {
                 String[] currentRow = currentLine.split(",");
                 csvList.add(currentRow);
@@ -52,7 +52,7 @@ public class DBBuilder {
                     "Time VARCHAR(10) NOT NULL," +
                     "Location VARCHAR(50) NOT NULL," +
                     "Referee_id INT NOT NULL," +
-                    "FOREIGN KEY (Referee_id) REFERENCES Referees(Referee_id) ON DELETE REJECT" +
+                    "FOREIGN KEY (Referee_id) REFERENCES Referees(Referee_id) ON DELETE RESTRICT" +
                     ")";
 
             String teamsTable = "Teams (" +
@@ -65,7 +65,7 @@ public class DBBuilder {
                     "Team_name VARCHAR(50)," +
                     "Game_id INT," +
                     "PRIMARY KEY (Team_name, Game_id)," +
-                    "FOREIGN KEY (Team_name REFERENCES Teams(Team_name) ON DELETE REJECT," +
+                    "FOREIGN KEY (Team_name) REFERENCES Teams(Team_name) ON DELETE RESTRICT," +
                     "FOREIGN KEY (Game_id) REFERENCES Games(Game_id) ON DELETE CASCADE" +
                     ")";
 
@@ -75,7 +75,7 @@ public class DBBuilder {
                     "Last_name VARCHAR(50) NOT NULL," +
                     "Age INT NOT NULL," +
                     "Position VARCHAR(50) NOT NULL," +
-                    "Nationality VARCHAR(50) NOT NULL," +
+                    "Nationality VARCHAR(50) NOT NULL" +
                     ")";
 
             String playsForTable = "PLAYSFOR (" +
@@ -92,10 +92,10 @@ public class DBBuilder {
 
             String supportsTable = "SUPPORTS (" +
                     "Sponsor_id INT," +
-                    "Team_id INT," +
-                    "PRIMARY KEY (Sponsor_id, Team_id)," +
+                    "Team_name VARCHAR(50)," +
+                    "PRIMARY KEY (Sponsor_id, Team_name)," +
                     "FOREIGN KEY (Sponsor_id) REFERENCES Sponsors(Sponsor_id) ON DELETE CASCADE," +
-                    "FOREIGN KEY (Team_id) REFERENCES Teams(Team_id) ON DELETE CASCADE" +
+                    "FOREIGN KEY (Team_name) REFERENCES Teams(Team_name) ON DELETE CASCADE" +
                     ")";
 
             String[] allTables = {refTable, gamesTable, teamsTable, playsTable, playersTable, playsForTable,
@@ -106,14 +106,14 @@ public class DBBuilder {
                 statement.executeUpdate("CREATE DATABASE IF NOT EXISTS LaLiga");
                 statement.executeUpdate("USE LaLiga");
                 for(String table : allTables) {
-                    statement.executeUpdate("CREATE TABLE IF NOT EXISTS "+ table);
+                    statement.executeUpdate("CREATE TABLE IF NOT EXISTS " + table);
                 }
             }
             
             // Go through first time: add all teams and their players/sponsors
             for(String[] row : csvList) {
                 // check if ref entry already exists: if not, add it
-                if(!isInTable("Referee", "Referee_id", Integer.parseInt(row[0]))) {
+                if(!isInTable("Referees", "Referee_id", Integer.parseInt(row[0]))) {
                     String insertString = "INSERT INTO Referee (Referee_id, Referee_name) VALUES (?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
                         preparedStatement.setInt(1, Integer.parseInt(row[0]));
@@ -140,6 +140,9 @@ public class DBBuilder {
         String sql = String.format("SELECT * FROM %s WHERE %s = ?", tableName, column_name);
 
         try(Connection connection = DriverManager.getConnection(url)) {
+            try(Statement statement = connection.createStatement()) {
+                statement.executeUpdate("USE LaLiga");
+            }
             try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
                 // type check
                 if(column_value.getClass() == Integer.class) {
