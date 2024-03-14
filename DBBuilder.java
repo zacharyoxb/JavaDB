@@ -23,6 +23,7 @@ public class DBBuilder {
 
         try(BufferedReader br = new BufferedReader(new FileReader(myCsvPath))) {
             String currentLine;
+            br.lines().skip(1);
             while((currentLine = br.readLine()) != null) {
                 String[] currentRow = currentLine.split(",");
                 csvList.add(currentRow);
