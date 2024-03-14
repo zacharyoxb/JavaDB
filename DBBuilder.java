@@ -12,14 +12,11 @@ public class DBBuilder {
     final static String url = "jdbc:mysql://localhost:3306/";
 
     public static void createDatabase() {
-        String createReferees = "";
-        String createGames = "";
-        String createTeams = "";
-        String createPlayers = "";
-        String createSponsors = "";
+        List<String[]> csvArray = readIntoArray();
+        putDataIntoDb(csvArray);
     }
 
-    public List<String[]> readIntoArray() {
+    public static List<String[]> readIntoArray() {
         String myCsvPath = "38636387.csv";
 
         List<String[]> csvList = new ArrayList<>();
@@ -37,7 +34,7 @@ public class DBBuilder {
         return null;
     }
 
-    public void putDataIntoDb(List<String[]> csvList) {
+    public static void putDataIntoDb(List<String[]> csvList) {
         // establish connection
         try(Connection connection = DriverManager.getConnection(url)) {
             // put table DDL statements into string var
@@ -112,5 +109,9 @@ public class DBBuilder {
         } catch(SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    public static void main(String[] args) {
+        createDatabase();
     }
 }
