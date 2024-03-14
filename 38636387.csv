@@ -1,0 +1,685 @@
+Referee_id,Referee_name,Game_id,Date,Time,Location,Player_id,First_name,Last_name,Age,Position,Nationality,Team_name,Manager,Owner,Sponsor_id,Sponsor_name
+5,José Luis González González,1,21-08-2023,20:00,Santiago Bernabéu,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+5,José Luis González González,1,21-08-2023,20:00,Santiago Bernabéu,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+6,Ricardo De Burgos Bengoetxea,2,26-08-2023,22:00,Santiago Bernabéu,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+6,Ricardo De Burgos Bengoetxea,2,26-08-2023,22:00,Santiago Bernabéu,4,Vinícius,Junior,22,Forward,Brazil,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+20,José Luis Munuera Montero,3,04-09-2023,21:00,Santiago Bernabéu,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+20,José Luis Munuera Montero,3,04-09-2023,21:00,Santiago Bernabéu,6,Sergio,Ramos,37,Defender,Spain,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+1,Carlos Velasco Carballo,4,08-09-2023,21:00,Santiago Bernabéu,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+1,Carlos Velasco Carballo,4,08-09-2023,21:00,Santiago Bernabéu,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+2,Antonio Miguel Mateu Lahoz,5,16-09-2023,14:00,Santiago Bernabéu,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+2,Antonio Miguel Mateu Lahoz,5,16-09-2023,14:00,Santiago Bernabéu,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+17,Isidro Díaz de Mera Escuderos,6,23-09-2023,16:30,Santiago Bernabéu,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+17,Isidro Díaz de Mera Escuderos,6,23-09-2023,16:30,Santiago Bernabéu,12,Casemiro, Iran, 30,Midfielder,Brazil,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+15,Alberto Undiano Mallenco,7,30-09-2023,14:00,Santiago Bernabéu,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+15,Alberto Undiano Mallenco,7,30-09-2023,14:00,Santiago Bernabéu,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,25,Grupo de Crecimiento Global
+14,Guillermo Cuadra Fernández,8,08-10-2023,14:00,Santiago Bernabéu,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+14,Guillermo Cuadra Fernández,8,08-10-2023,14:00,Santiago Bernabéu,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+20,José Luis Munuera Montero,9,14-10-2023,16:30,Santiago Bernabéu,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+20,José Luis Munuera Montero,9,14-10-2023,16:30,Santiago Bernabéu,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+9,Pablo González Fuertes,10,22-10-2023,16:30,Santiago Bernabéu,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+9,Pablo González Fuertes,10,22-10-2023,16:30,Santiago Bernabéu,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+14,Guillermo Cuadra Fernández,11,28-10-2023,14:00,Santiago Bernabéu,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+14,Guillermo Cuadra Fernández,11,28-10-2023,14:00,Santiago Bernabéu,22,Diego,Costa,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+12,César Soto Grado,12,03-11-2023,21:00,Santiago Bernabéu,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+12,César Soto Grado,12,03-11-2023,21:00,Santiago Bernabéu,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+14,Guillermo Cuadra Fernández,13,11-11-2023,14:00,Santiago Bernabéu,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+14,Guillermo Cuadra Fernández,13,11-11-2023,14:00,Santiago Bernabéu,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+19,José Munuera Montero,14,17-11-2023,21:00,Santiago Bernabéu,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+19,José Munuera Montero,14,17-11-2023,21:00,Santiago Bernabéu,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+10,Gil Manzano,15,26-11-2023,21:00,Santiago Bernabéu,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+10,Gil Manzano,15,26-11-2023,21:00,Santiago Bernabéu,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+15,Alberto Undiano Mallenco,16,03-12-2023,14:00,Santiago Bernabéu,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+15,Alberto Undiano Mallenco,16,03-12-2023,14:00,Santiago Bernabéu,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+9,Pablo González Fuertes,17,09-12-2023,18:30,Santiago Bernabéu,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+9,Pablo González Fuertes,17,09-12-2023,18:30,Santiago Bernabéu,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+1,Carlos Velasco Carballo,18,16-12-2023,12:00,Santiago Bernabéu,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+1,Carlos Velasco Carballo,18,16-12-2023,12:00,Santiago Bernabéu,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+7,Adrián Cordero Vega,19,11-08-2023,20:00,Camp Nou,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+7,Adrián Cordero Vega,19,11-08-2023,20:00,Camp Nou,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+10,Gil Manzano,20,25-08-2023,20:00,Camp Nou,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+10,Gil Manzano,20,25-08-2023,20:00,Camp Nou,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+15,Alberto Undiano Mallenco,21,02-09-2023,18:30,Camp Nou,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+15,Alberto Undiano Mallenco,21,02-09-2023,18:30,Camp Nou,6,Sergio,Ramos,37,Defender,Spain,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+2,Antonio Miguel Mateu Lahoz,22,09-09-2023,18:30,Camp Nou,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+2,Antonio Miguel Mateu Lahoz,22,09-09-2023,18:30,Camp Nou,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+1,Carlos Velasco Carballo,23,16-09-2023,16:30,Camp Nou,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+1,Carlos Velasco Carballo,23,16-09-2023,16:30,Camp Nou,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+2,Antonio Miguel Mateu Lahoz,24,22-09-2023,21:00,Camp Nou,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+2,Antonio Miguel Mateu Lahoz,24,22-09-2023,21:00,Camp Nou,12,Casemiro, Iran, 30,Midfielder,Brazil,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+13,David Medié Jiménez,25,02-10-2023,21:00,Camp Nou,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+13,David Medié Jiménez,25,02-10-2023,21:00,Camp Nou,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,25,Grupo de Crecimiento Global
+3,Javier Alberola Rojas,26,06-10-2023,21:00,Camp Nou,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+3,Javier Alberola Rojas,26,06-10-2023,21:00,Camp Nou,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+7,Adrián Cordero Vega,27,13-10-2023,21:00,Camp Nou,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+7,Adrián Cordero Vega,27,13-10-2023,21:00,Camp Nou,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+12,César Soto Grado,28,22-10-2023,18:30,Camp Nou,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+12,César Soto Grado,28,22-10-2023,18:30,Camp Nou,20,David,Alaba,30,Defender,Austria,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+10,Gil Manzano,29,27-10-2023,21:00,Camp Nou,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+10,Gil Manzano,29,27-10-2023,21:00,Camp Nou,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+6,Ricardo De Burgos Bengoetxea,30,05-11-2023,16:30,Camp Nou,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+6,Ricardo De Burgos Bengoetxea,30,05-11-2023,16:30,Camp Nou,24,Iago,Aspas,34,Forward,Spain,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+9,Pablo González Fuertes,31,12-11-2023,18:30,Camp Nou,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+9,Pablo González Fuertes,31,12-11-2023,18:30,Camp Nou,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+8,Mario Melero López,32,19-11-2023,16:30,Camp Nou,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+8,Mario Melero López,32,19-11-2023,16:30,Camp Nou,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+4,Juan Martínez Munuera,33,27-11-2023,21:00,Camp Nou,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+4,Juan Martínez Munuera,33,27-11-2023,21:00,Camp Nou,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+16,José María Sánchez Martínez,34,01-12-2023,21:00,Camp Nou,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+16,José María Sánchez Martínez,34,01-12-2023,21:00,Camp Nou,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+6,Ricardo De Burgos Bengoetxea,35,09-12-2023,14:00,Camp Nou,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+6,Ricardo De Burgos Bengoetxea,35,09-12-2023,14:00,Camp Nou,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+7,Adrián Cordero Vega,36,16-12-2023,21:00,Camp Nou,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+7,Adrián Cordero Vega,36,16-12-2023,21:00,Camp Nou,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+18,José Antonio López Toca,37,12-08-2023,19:30,Wanda Metropolitano,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+18,José Antonio López Toca,37,12-08-2023,19:30,Wanda Metropolitano,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+8,Mario Melero López,38,18-08-2023,20:00,Wanda Metropolitano,4,Vinícius,Junior,22,Forward,Brazil,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+8,Mario Melero López,38,18-08-2023,20:00,Wanda Metropolitano,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+5,José Luis González González,39,01-09-2023,21:00,Wanda Metropolitano,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+5,José Luis González González,39,01-09-2023,21:00,Wanda Metropolitano,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+18,José Antonio López Toca,40,11-09-2023,21:00,Wanda Metropolitano,4,Vinícius,Junior,22,Forward,Brazil,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+18,José Antonio López Toca,40,11-09-2023,21:00,Wanda Metropolitano,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+11,Ignacio Iglesias Villanueva,41,15-09-2023,21:00,Wanda Metropolitano,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+11,Ignacio Iglesias Villanueva,41,15-09-2023,21:00,Wanda Metropolitano,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+15,Alberto Undiano Mallenco,42,24-09-2023,21:00,Wanda Metropolitano,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+15,Alberto Undiano Mallenco,42,24-09-2023,21:00,Wanda Metropolitano,12,Casemiro, Iran, 30,Midfielder,Brazil,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+6,Ricardo De Burgos Bengoetxea,43,29-09-2023,21:00,Wanda Metropolitano,4,Vinícius,Junior,22,Forward,Brazil,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+6,Ricardo De Burgos Bengoetxea,43,29-09-2023,21:00,Wanda Metropolitano,14,Ángel,Correa,27,Forward,Argentina,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,3,Rendimiento Pico
+19,José Munuera Montero,44,07-10-2023,18:30,Wanda Metropolitano,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+19,José Munuera Montero,44,07-10-2023,18:30,Wanda Metropolitano,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+9,Pablo González Fuertes,45,15-10-2023,16:30,Wanda Metropolitano,4,Vinícius,Junior,22,Forward,Brazil,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+9,Pablo González Fuertes,45,15-10-2023,16:30,Wanda Metropolitano,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+15,Alberto Undiano Mallenco,46,23-10-2023,21:00,Wanda Metropolitano,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+15,Alberto Undiano Mallenco,46,23-10-2023,21:00,Wanda Metropolitano,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+5,José Luis González González,47,30-10-2023,21:00,Wanda Metropolitano,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+5,José Luis González González,47,30-10-2023,21:00,Wanda Metropolitano,22,Diego,Costa,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+18,José Antonio López Toca,48,04-11-2023,14:00,Wanda Metropolitano,4,Vinícius,Junior,22,Forward,Brazil,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+18,José Antonio López Toca,48,04-11-2023,14:00,Wanda Metropolitano,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+13,David Medié Jiménez,49,13-11-2023,21:00,Wanda Metropolitano,4,Vinícius,Junior,22,Forward,Brazil,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+13,David Medié Jiménez,49,13-11-2023,21:00,Wanda Metropolitano,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+11,Ignacio Iglesias Villanueva,50,18-11-2023,16:30,Wanda Metropolitano,4,Vinícius,Junior,22,Forward,Brazil,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+11,Ignacio Iglesias Villanueva,50,18-11-2023,16:30,Wanda Metropolitano,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+14,Guillermo Cuadra Fernández,51,26-11-2023,16:30,Wanda Metropolitano,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+14,Guillermo Cuadra Fernández,51,26-11-2023,16:30,Wanda Metropolitano,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+1,Carlos Velasco Carballo,52,02-12-2023,12:00,Wanda Metropolitano,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+1,Carlos Velasco Carballo,52,02-12-2023,12:00,Wanda Metropolitano,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+17,Isidro Díaz de Mera Escuderos,53,08-12-2023,21:00,Wanda Metropolitano,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+17,Isidro Díaz de Mera Escuderos,53,08-12-2023,21:00,Wanda Metropolitano,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+13,David Medié Jiménez,54,18-12-2023,21:00,Wanda Metropolitano,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+13,David Medié Jiménez,54,18-12-2023,21:00,Wanda Metropolitano,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+19,José Munuera Montero,55,12-08-2023,17:30,Mestalla,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+19,José Munuera Montero,55,12-08-2023,17:30,Mestalla,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+18,José Antonio López Toca,56,20-08-2023,22:00,Mestalla,6,Sergio,Ramos,37,Defender,Spain,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+18,José Antonio López Toca,56,20-08-2023,22:00,Mestalla,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+20,José Luis Munuera Montero,57,26-08-2023,17:30,Mestalla,6,Sergio,Ramos,37,Defender,Spain,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+20,José Luis Munuera Montero,57,26-08-2023,17:30,Mestalla,4,Vinícius,Junior,22,Forward,Brazil,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+17,Isidro Díaz de Mera Escuderos,58,09-09-2023,21:00,Mestalla,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+17,Isidro Díaz de Mera Escuderos,58,09-09-2023,21:00,Mestalla,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+3,Javier Alberola Rojas,59,16-09-2023,12:00,Mestalla,6,Sergio,Ramos,37,Defender,Spain,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+3,Javier Alberola Rojas,59,16-09-2023,12:00,Mestalla,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+13,David Medié Jiménez,60,25-09-2023,21:00,Mestalla,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+13,David Medié Jiménez,60,25-09-2023,21:00,Mestalla,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+9,Pablo González Fuertes,61,01-10-2023,14:00,Mestalla,6,Sergio,Ramos,37,Defender,Spain,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+9,Pablo González Fuertes,61,01-10-2023,14:00,Mestalla,14,Ángel,Correa,27,Forward,Argentina,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,3,Rendimiento Pico
+19,José Munuera Montero,62,08-10-2023,21:00,Mestalla,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+19,José Munuera Montero,62,08-10-2023,21:00,Mestalla,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+14,Guillermo Cuadra Fernández,63,15-10-2023,18:30,Mestalla,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+14,Guillermo Cuadra Fernández,63,15-10-2023,18:30,Mestalla,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+7,Adrián Cordero Vega,64,28-10-2023,18:30,Mestalla,6,Sergio,Ramos,37,Defender,Spain,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+7,Adrián Cordero Vega,64,28-10-2023,18:30,Mestalla,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+18,José Antonio López Toca,65,05-11-2023,14:00,Mestalla,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+18,José Antonio López Toca,65,05-11-2023,14:00,Mestalla,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+14,Guillermo Cuadra Fernández,66,11-11-2023,12:00,Mestalla,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+14,Guillermo Cuadra Fernández,66,11-11-2023,12:00,Mestalla,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+7,Adrián Cordero Vega,67,20-11-2023,21:00,Mestalla,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+7,Adrián Cordero Vega,67,20-11-2023,21:00,Mestalla,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+2,Antonio Miguel Mateu Lahoz,68,02-12-2023,21:00,Mestalla,6,Sergio,Ramos,37,Defender,Spain,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+2,Antonio Miguel Mateu Lahoz,68,02-12-2023,21:00,Mestalla,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+1,Carlos Velasco Carballo,69,09-12-2023,16:30,Mestalla,6,Sergio,Ramos,37,Defender,Spain,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+1,Carlos Velasco Carballo,69,09-12-2023,16:30,Mestalla,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+6,Ricardo De Burgos Bengoetxea,70,23-12-2023,14:00,Mestalla,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+6,Ricardo De Burgos Bengoetxea,70,23-12-2023,14:00,Mestalla,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+11,Ignacio Iglesias Villanueva,71,29-12-2023,21:00,Mestalla,6,Sergio,Ramos,37,Defender,Spain,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+11,Ignacio Iglesias Villanueva,71,29-12-2023,21:00,Mestalla,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+9,Pablo González Fuertes,72,08-01-2024,21:00,Mestalla,6,Sergio,Ramos,37,Defender,Spain,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+9,Pablo González Fuertes,72,08-01-2024,21:00,Mestalla,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+8,Mario Melero López,73,12-08-2023,22:00,Ramón Sánchez Pizjuán,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+8,Mario Melero López,73,12-08-2023,22:00,Ramón Sánchez Pizjuán,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+15,Alberto Undiano Mallenco,74,19-08-2023,22:00,Ramón Sánchez Pizjuán,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+15,Alberto Undiano Mallenco,74,19-08-2023,22:00,Ramón Sánchez Pizjuán,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+3,Javier Alberola Rojas,75,25-08-2023,22:00,Ramón Sánchez Pizjuán,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+3,Javier Alberola Rojas,75,25-08-2023,22:00,Ramón Sánchez Pizjuán,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+17,Isidro Díaz de Mera Escuderos,76,02-09-2023,12:00,Ramón Sánchez Pizjuán,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+17,Isidro Díaz de Mera Escuderos,76,02-09-2023,12:00,Ramón Sánchez Pizjuán,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+8,Mario Melero López,77,16-09-2023,18:30,Ramón Sánchez Pizjuán,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+8,Mario Melero López,77,16-09-2023,18:30,Ramón Sánchez Pizjuán,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+16,José María Sánchez Martínez,78,23-09-2023,14:00,Ramón Sánchez Pizjuán,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+16,José María Sánchez Martínez,78,23-09-2023,14:00,Ramón Sánchez Pizjuán,12,Casemiro, Iran, 30,Midfielder,Brazil,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+5,José Luis González González,79,09-10-2023,21:00,Ramón Sánchez Pizjuán,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+5,José Luis González González,79,09-10-2023,21:00,Ramón Sánchez Pizjuán,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,7,Maximizar Marketing
+1,Carlos Velasco Carballo,80,14-10-2023,21:00,Ramón Sánchez Pizjuán,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+1,Carlos Velasco Carballo,80,14-10-2023,21:00,Ramón Sánchez Pizjuán,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+15,Alberto Undiano Mallenco,81,28-10-2023,16:30,Ramón Sánchez Pizjuán,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+15,Alberto Undiano Mallenco,81,28-10-2023,16:30,Ramón Sánchez Pizjuán,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+6,Ricardo De Burgos Bengoetxea,82,04-11-2023,16:30,Ramón Sánchez Pizjuán,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+6,Ricardo De Burgos Bengoetxea,82,04-11-2023,16:30,Ramón Sánchez Pizjuán,20,David,Alaba,30,Defender,Austria,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+13,David Medié Jiménez,83,12-11-2023,21:00,Ramón Sánchez Pizjuán,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+13,David Medié Jiménez,83,12-11-2023,21:00,Ramón Sánchez Pizjuán,22,Diego,Costa,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+3,Javier Alberola Rojas,84,19-11-2023,21:00,Ramón Sánchez Pizjuán,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+3,Javier Alberola Rojas,84,19-11-2023,21:00,Ramón Sánchez Pizjuán,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+7,Adrián Cordero Vega,85,25-11-2023,14:00,Ramón Sánchez Pizjuán,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+7,Adrián Cordero Vega,85,25-11-2023,14:00,Ramón Sánchez Pizjuán,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+16,José María Sánchez Martínez,86,03-12-2023,21:00,Ramón Sánchez Pizjuán,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+16,José María Sánchez Martínez,86,03-12-2023,21:00,Ramón Sánchez Pizjuán,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+9,Pablo González Fuertes,87,11-12-2023,21:00,Ramón Sánchez Pizjuán,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+9,Pablo González Fuertes,87,11-12-2023,21:00,Ramón Sánchez Pizjuán,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+12,César Soto Grado,88,15-12-2023,21:00,Ramón Sánchez Pizjuán,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+12,César Soto Grado,88,15-12-2023,21:00,Ramón Sánchez Pizjuán,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+14,Guillermo Cuadra Fernández,89,23-12-2023,18:30,Ramón Sánchez Pizjuán,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+14,Guillermo Cuadra Fernández,89,23-12-2023,18:30,Ramón Sánchez Pizjuán,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+18,José Antonio López Toca,90,30-12-2023,21:00,Ramón Sánchez Pizjuán,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+18,José Antonio López Toca,90,30-12-2023,21:00,Ramón Sánchez Pizjuán,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+1,Carlos Velasco Carballo,91,13-08-2023,22:00,Reale Arena,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+1,Carlos Velasco Carballo,91,13-08-2023,22:00,Reale Arena,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+19,José Munuera Montero,92,20-08-2023,17:30,Reale Arena,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+19,José Munuera Montero,92,20-08-2023,17:30,Reale Arena,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+2,Antonio Miguel Mateu Lahoz,93,27-08-2023,17:30,Reale Arena,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+2,Antonio Miguel Mateu Lahoz,93,27-08-2023,17:30,Reale Arena,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+18,José Antonio López Toca,94,03-09-2023,16:30,Reale Arena,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+18,José Antonio López Toca,94,03-09-2023,16:30,Reale Arena,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+11,Ignacio Iglesias Villanueva,95,09-09-2023,12:00,Reale Arena,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+11,Ignacio Iglesias Villanueva,95,09-09-2023,12:00,Reale Arena,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+9,Pablo González Fuertes,96,24-09-2023,18:30,Reale Arena,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+9,Pablo González Fuertes,96,24-09-2023,18:30,Reale Arena,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+6,Ricardo De Burgos Bengoetxea,97,30-09-2023,12:00,Reale Arena,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+6,Ricardo De Burgos Bengoetxea,97,30-09-2023,12:00,Reale Arena,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,3,Rendimiento Pico
+19,José Munuera Montero,98,07-10-2023,14:00,Reale Arena,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+19,José Munuera Montero,98,07-10-2023,14:00,Reale Arena,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+2,Antonio Miguel Mateu Lahoz,99,16-10-2023,21:00,Reale Arena,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+2,Antonio Miguel Mateu Lahoz,99,16-10-2023,21:00,Reale Arena,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+5,José Luis González González,100,28-10-2023,21:00,Reale Arena,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+5,José Luis González González,100,28-10-2023,21:00,Reale Arena,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+18,José Antonio López Toca,101,05-11-2023,21:00,Reale Arena,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+18,José Antonio López Toca,101,05-11-2023,21:00,Reale Arena,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+2,Antonio Miguel Mateu Lahoz,102,11-11-2023,21:00,Reale Arena,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+2,Antonio Miguel Mateu Lahoz,102,11-11-2023,21:00,Reale Arena,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+14,Guillermo Cuadra Fernández,103,18-11-2023,12:00,Reale Arena,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+14,Guillermo Cuadra Fernández,103,18-11-2023,12:00,Reale Arena,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+16,José María Sánchez Martínez,104,25-11-2023,21:00,Reale Arena,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+16,José María Sánchez Martínez,104,25-11-2023,21:00,Reale Arena,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+4,Juan Martínez Munuera,105,04-12-2023,21:00,Reale Arena,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+4,Juan Martínez Munuera,105,04-12-2023,21:00,Reale Arena,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+17,Isidro Díaz de Mera Escuderos,106,09-12-2023,12:00,Reale Arena,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+17,Isidro Díaz de Mera Escuderos,106,09-12-2023,12:00,Reale Arena,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+10,Gil Manzano,107,16-12-2023,16:30,Reale Arena,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+10,Gil Manzano,107,16-12-2023,16:30,Reale Arena,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+19,José Munuera Montero,108,22-12-2023,21:00,Reale Arena,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+19,José Munuera Montero,108,22-12-2023,21:00,Reale Arena,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+5,José Luis González González,109,13-08-2023,19:30,Estadio de la Cerámica,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+5,José Luis González González,109,13-08-2023,19:30,Estadio de la Cerámica,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+18,José Antonio López Toca,110,21-08-2023,22:00,Estadio de la Cerámica,12,Casemiro, Iran, 30,Midfielder,Brazil,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+18,José Antonio López Toca,110,21-08-2023,22:00,Estadio de la Cerámica,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+11,Ignacio Iglesias Villanueva,111,28-08-2023,20:00,Estadio de la Cerámica,12,Casemiro, Iran, 30,Midfielder,Brazil,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+11,Ignacio Iglesias Villanueva,111,28-08-2023,20:00,Estadio de la Cerámica,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+17,Isidro Díaz de Mera Escuderos,112,09-09-2023,14:00,Estadio de la Cerámica,12,Casemiro, Iran, 30,Midfielder,Brazil,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+17,Isidro Díaz de Mera Escuderos,112,09-09-2023,14:00,Estadio de la Cerámica,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+14,Guillermo Cuadra Fernández,113,17-09-2023,18:30,Estadio de la Cerámica,12,Casemiro, Iran, 30,Midfielder,Brazil,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+14,Guillermo Cuadra Fernández,113,17-09-2023,18:30,Estadio de la Cerámica,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+19,José Munuera Montero,114,30-09-2023,16:30,Estadio de la Cerámica,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+19,José Munuera Montero,114,30-09-2023,16:30,Estadio de la Cerámica,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+16,José María Sánchez Martínez,115,29-10-2023,21:00,Estadio de la Cerámica,12,Casemiro, Iran, 30,Midfielder,Brazil,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+16,José María Sánchez Martínez,115,29-10-2023,21:00,Estadio de la Cerámica,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,7,Maximizar Marketing
+9,Pablo González Fuertes,116,04-11-2023,12:00,Estadio de la Cerámica,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+9,Pablo González Fuertes,116,04-11-2023,12:00,Estadio de la Cerámica,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+4,Juan Martínez Munuera,117,12-11-2023,16:30,Estadio de la Cerámica,12,Casemiro, Iran, 30,Midfielder,Brazil,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+4,Juan Martínez Munuera,117,12-11-2023,16:30,Estadio de la Cerámica,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+13,David Medié Jiménez,118,25-11-2023,12:00,Estadio de la Cerámica,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+13,David Medié Jiménez,118,25-11-2023,12:00,Estadio de la Cerámica,20,David,Alaba,30,Defender,Austria,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+15,Alberto Undiano Mallenco,119,10-12-2023,14:00,Estadio de la Cerámica,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+15,Alberto Undiano Mallenco,119,10-12-2023,14:00,Estadio de la Cerámica,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+1,Carlos Velasco Carballo,120,16-12-2023,18:30,Estadio de la Cerámica,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+1,Carlos Velasco Carballo,120,16-12-2023,18:30,Estadio de la Cerámica,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+3,Javier Alberola Rojas,121,23-12-2023,21:00,Estadio de la Cerámica,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+3,Javier Alberola Rojas,121,23-12-2023,21:00,Estadio de la Cerámica,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+9,Pablo González Fuertes,122,30-12-2023,16:30,Estadio de la Cerámica,12,Casemiro, Iran, 30,Midfielder,Brazil,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+9,Pablo González Fuertes,122,30-12-2023,16:30,Estadio de la Cerámica,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+8,Mario Melero López,123,06-01-2024,18:30,Estadio de la Cerámica,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+8,Mario Melero López,123,06-01-2024,18:30,Estadio de la Cerámica,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+3,Javier Alberola Rojas,124,13-01-2024,12:00,Estadio de la Cerámica,12,Casemiro, Iran, 30,Midfielder,Brazil,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+3,Javier Alberola Rojas,124,13-01-2024,12:00,Estadio de la Cerámica,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+9,Pablo González Fuertes,125,19-01-2024,21:00,Estadio de la Cerámica,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+9,Pablo González Fuertes,125,19-01-2024,21:00,Estadio de la Cerámica,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+17,Isidro Díaz de Mera Escuderos,126,29-01-2024,21:00,Estadio de la Cerámica,12,Casemiro, Iran, 30,Midfielder,Brazil,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+17,Isidro Díaz de Mera Escuderos,126,29-01-2024,21:00,Estadio de la Cerámica,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+19,José Munuera Montero,127,13-08-2023,17:30,Benito Villamarín,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,3,Rendimiento Pico
+19,José Munuera Montero,127,13-08-2023,17:30,Benito Villamarín,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+13,David Medié Jiménez,128,19-08-2023,19:30,Benito Villamarín,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,3,Rendimiento Pico
+13,David Medié Jiménez,128,19-08-2023,19:30,Benito Villamarín,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+15,Alberto Undiano Mallenco,129,26-08-2023,19:30,Benito Villamarín,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,3,Rendimiento Pico
+15,Alberto Undiano Mallenco,129,26-08-2023,19:30,Benito Villamarín,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+14,Guillermo Cuadra Fernández,130,02-09-2023,14:00,Benito Villamarín,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,25,Grupo de Crecimiento Global
+14,Guillermo Cuadra Fernández,130,02-09-2023,14:00,Benito Villamarín,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+12,César Soto Grado,131,09-09-2023,16:30,Benito Villamarín,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,7,Maximizar Marketing
+12,César Soto Grado,131,09-09-2023,16:30,Benito Villamarín,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+1,Carlos Velasco Carballo,132,17-09-2023,12:00,Benito Villamarín,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,7,Maximizar Marketing
+1,Carlos Velasco Carballo,132,17-09-2023,12:00,Benito Villamarín,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+8,Mario Melero López,133,24-09-2023,14:00,Benito Villamarín,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,3,Rendimiento Pico
+8,Mario Melero López,133,24-09-2023,14:00,Benito Villamarín,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+5,José Luis González González,134,07-10-2023,12:00,Benito Villamarín,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,3,Rendimiento Pico
+5,José Luis González González,134,07-10-2023,12:00,Benito Villamarín,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+20,José Luis Munuera Montero,135,15-10-2023,21:00,Benito Villamarín,14,Ángel,Correa,27,Forward,Argentina,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,7,Maximizar Marketing
+20,José Luis Munuera Montero,135,15-10-2023,21:00,Benito Villamarín,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+12,César Soto Grado,136,28-10-2023,12:00,Benito Villamarín,14,Ángel,Correa,27,Forward,Argentina,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,25,Grupo de Crecimiento Global
+12,César Soto Grado,136,28-10-2023,12:00,Benito Villamarín,20,David,Alaba,30,Defender,Austria,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+16,José María Sánchez Martínez,137,06-11-2023,21:00,Benito Villamarín,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,25,Grupo de Crecimiento Global
+16,José María Sánchez Martínez,137,06-11-2023,21:00,Benito Villamarín,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+17,Isidro Díaz de Mera Escuderos,138,10-11-2023,21:00,Benito Villamarín,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,25,Grupo de Crecimiento Global
+17,Isidro Díaz de Mera Escuderos,138,10-11-2023,21:00,Benito Villamarín,24,Iago,Aspas,34,Forward,Spain,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+4,Juan Martínez Munuera,139,18-11-2023,14:00,Benito Villamarín,14,Ángel,Correa,27,Forward,Argentina,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,3,Rendimiento Pico
+4,Juan Martínez Munuera,139,18-11-2023,14:00,Benito Villamarín,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+6,Ricardo De Burgos Bengoetxea,140,03-12-2023,18:30,Benito Villamarín,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,3,Rendimiento Pico
+6,Ricardo De Burgos Bengoetxea,140,03-12-2023,18:30,Benito Villamarín,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+20,José Luis Munuera Montero,141,16-12-2023,14:00,Benito Villamarín,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,3,Rendimiento Pico
+20,José Luis Munuera Montero,141,16-12-2023,14:00,Benito Villamarín,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+18,José Antonio López Toca,142,24-12-2023,12:00,Benito Villamarín,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,25,Grupo de Crecimiento Global
+18,José Antonio López Toca,142,24-12-2023,12:00,Benito Villamarín,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+17,Isidro Díaz de Mera Escuderos,143,31-12-2023,12:00,Benito Villamarín,14,Ángel,Correa,27,Forward,Argentina,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,7,Maximizar Marketing
+17,Isidro Díaz de Mera Escuderos,143,31-12-2023,12:00,Benito Villamarín,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+12,César Soto Grado,144,06-01-2024,12:00,Benito Villamarín,14,Ángel,Correa,27,Forward,Argentina,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,7,Maximizar Marketing
+12,César Soto Grado,144,06-01-2024,12:00,Benito Villamarín,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+16,José María Sánchez Martínez,145,14-08-2023,20:00,San Mamés,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+16,José María Sánchez Martínez,145,14-08-2023,20:00,San Mamés,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+11,Ignacio Iglesias Villanueva,146,28-08-2023,22:00,San Mamés,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+11,Ignacio Iglesias Villanueva,146,28-08-2023,22:00,San Mamés,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+1,Carlos Velasco Carballo,147,02-09-2023,16:30,San Mamés,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+1,Carlos Velasco Carballo,147,02-09-2023,16:30,San Mamés,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+9,Pablo González Fuertes,148,10-09-2023,12:00,San Mamés,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+9,Pablo González Fuertes,148,10-09-2023,12:00,San Mamés,6,Sergio,Ramos,37,Defender,Spain,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+4,Juan Martínez Munuera,149,18-09-2023,21:00,San Mamés,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+4,Juan Martínez Munuera,149,18-09-2023,21:00,San Mamés,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+14,Guillermo Cuadra Fernández,150,23-09-2023,12:00,San Mamés,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+14,Guillermo Cuadra Fernández,150,23-09-2023,12:00,San Mamés,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+19,José Munuera Montero,151,30-09-2023,18:30,San Mamés,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+19,José Munuera Montero,151,30-09-2023,18:30,San Mamés,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+3,Javier Alberola Rojas,152,07-10-2023,21:00,San Mamés,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+3,Javier Alberola Rojas,152,07-10-2023,21:00,San Mamés,14,Ángel,Correa,27,Forward,Argentina,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,25,Grupo de Crecimiento Global
+4,Juan Martínez Munuera,153,20-10-2023,21:00,San Mamés,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+4,Juan Martínez Munuera,153,20-10-2023,21:00,San Mamés,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+6,Ricardo De Burgos Bengoetxea,154,29-10-2023,18:30,San Mamés,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+6,Ricardo De Burgos Bengoetxea,154,29-10-2023,18:30,San Mamés,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+17,Isidro Díaz de Mera Escuderos,155,25-11-2023,18:30,San Mamés,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+17,Isidro Díaz de Mera Escuderos,155,25-11-2023,18:30,San Mamés,22,Diego,Costa,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+15,Alberto Undiano Mallenco,156,02-12-2023,16:30,San Mamés,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+15,Alberto Undiano Mallenco,156,02-12-2023,16:30,San Mamés,24,Iago,Aspas,34,Forward,Spain,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+7,Adrián Cordero Vega,157,10-12-2023,18:30,San Mamés,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+7,Adrián Cordero Vega,157,10-12-2023,18:30,San Mamés,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+9,Pablo González Fuertes,158,24-12-2023,16:30,San Mamés,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+9,Pablo González Fuertes,158,24-12-2023,16:30,San Mamés,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+20,José Luis Munuera Montero,159,30-12-2023,18:30,San Mamés,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+20,José Luis Munuera Montero,159,30-12-2023,18:30,San Mamés,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+17,Isidro Díaz de Mera Escuderos,160,07-01-2024,14:00,San Mamés,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+17,Isidro Díaz de Mera Escuderos,160,07-01-2024,14:00,San Mamés,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+11,Ignacio Iglesias Villanueva,161,13-01-2024,16:30,San Mamés,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+11,Ignacio Iglesias Villanueva,161,13-01-2024,16:30,San Mamés,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+13,David Medié Jiménez,162,20-01-2024,12:00,San Mamés,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+13,David Medié Jiménez,162,20-01-2024,12:00,San Mamés,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+2,Antonio Miguel Mateu Lahoz,163,14-08-2023,22:00,Estadi Ciutat de València,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+2,Antonio Miguel Mateu Lahoz,163,14-08-2023,22:00,Estadi Ciutat de València,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+9,Pablo González Fuertes,164,27-08-2023,22:00,Estadi Ciutat de València,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+9,Pablo González Fuertes,164,27-08-2023,22:00,Estadi Ciutat de València,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+18,José Antonio López Toca,165,03-09-2023,12:00,Estadi Ciutat de València,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+18,José Antonio López Toca,165,03-09-2023,12:00,Estadi Ciutat de València,4,Vinícius,Junior,22,Forward,Brazil,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+14,Guillermo Cuadra Fernández,166,17-09-2023,16:30,Estadi Ciutat de València,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+14,Guillermo Cuadra Fernández,166,17-09-2023,16:30,Estadi Ciutat de València,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+10,Gil Manzano,167,24-09-2023,16:30,Estadi Ciutat de València,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+10,Gil Manzano,167,24-09-2023,16:30,Estadi Ciutat de València,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+5,José Luis González González,168,30-09-2023,21:00,Estadi Ciutat de València,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+5,José Luis González González,168,30-09-2023,21:00,Estadi Ciutat de València,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+6,Ricardo De Burgos Bengoetxea,169,08-10-2023,18:30,Estadi Ciutat de València,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+6,Ricardo De Burgos Bengoetxea,169,08-10-2023,18:30,Estadi Ciutat de València,12,Casemiro, Iran, 30,Midfielder,Brazil,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+5,José Luis González González,170,15-10-2023,14:00,Estadi Ciutat de València,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+5,José Luis González González,170,15-10-2023,14:00,Estadi Ciutat de València,14,Ángel,Correa,27,Forward,Argentina,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,3,Rendimiento Pico
+15,Alberto Undiano Mallenco,171,29-10-2023,14:00,Estadi Ciutat de València,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+15,Alberto Undiano Mallenco,171,29-10-2023,14:00,Estadi Ciutat de València,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+1,Carlos Velasco Carballo,172,12-11-2023,14:00,Estadi Ciutat de València,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+1,Carlos Velasco Carballo,172,12-11-2023,14:00,Estadi Ciutat de València,20,David,Alaba,30,Defender,Austria,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+15,Alberto Undiano Mallenco,173,19-11-2023,18:30,Estadi Ciutat de València,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+15,Alberto Undiano Mallenco,173,19-11-2023,18:30,Estadi Ciutat de València,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+16,José María Sánchez Martínez,174,24-11-2023,21:00,Estadi Ciutat de València,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+16,José María Sánchez Martínez,174,24-11-2023,21:00,Estadi Ciutat de València,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+12,César Soto Grado,175,02-12-2023,14:00,Estadi Ciutat de València,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+12,César Soto Grado,175,02-12-2023,14:00,Estadi Ciutat de València,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+13,David Medié Jiménez,176,09-12-2023,21:00,Estadi Ciutat de València,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+13,David Medié Jiménez,176,09-12-2023,21:00,Estadi Ciutat de València,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+9,Pablo González Fuertes,177,24-12-2023,21:00,Estadi Ciutat de València,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+9,Pablo González Fuertes,177,24-12-2023,21:00,Estadi Ciutat de València,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+19,José Munuera Montero,178,01-01-2024,21:00,Estadi Ciutat de València,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+19,José Munuera Montero,178,01-01-2024,21:00,Estadi Ciutat de València,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+12,César Soto Grado,179,06-01-2024,21:00,Estadi Ciutat de València,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+12,César Soto Grado,179,06-01-2024,21:00,Estadi Ciutat de València,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+20,José Luis Munuera Montero,180,12-01-2024,21:00,Estadi Ciutat de València,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+20,José Luis Munuera Montero,180,12-01-2024,21:00,Estadi Ciutat de València,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+6,Ricardo De Burgos Bengoetxea,181,03-09-2023,14:00,Estadio Municipal de Ipurua,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+6,Ricardo De Burgos Bengoetxea,181,03-09-2023,14:00,Estadio Municipal de Ipurua,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+4,Juan Martínez Munuera,182,10-09-2023,16:30,Estadio Municipal de Ipurua,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+4,Juan Martínez Munuera,182,10-09-2023,16:30,Estadio Municipal de Ipurua,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+14,Guillermo Cuadra Fernández,183,17-09-2023,21:00,Estadio Municipal de Ipurua,20,David,Alaba,30,Defender,Austria,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+14,Guillermo Cuadra Fernández,183,17-09-2023,21:00,Estadio Municipal de Ipurua,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+13,David Medié Jiménez,184,24-09-2023,12:00,Estadio Municipal de Ipurua,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+13,David Medié Jiménez,184,24-09-2023,12:00,Estadio Municipal de Ipurua,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+5,José Luis González González,185,01-10-2023,21:00,Estadio Municipal de Ipurua,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+5,José Luis González González,185,01-10-2023,21:00,Estadio Municipal de Ipurua,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+17,Isidro Díaz de Mera Escuderos,186,14-10-2023,18:30,Estadio Municipal de Ipurua,20,David,Alaba,30,Defender,Austria,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+17,Isidro Díaz de Mera Escuderos,186,14-10-2023,18:30,Estadio Municipal de Ipurua,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+11,Ignacio Iglesias Villanueva,187,21-10-2023,21:00,Estadio Municipal de Ipurua,20,David,Alaba,30,Defender,Austria,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+11,Ignacio Iglesias Villanueva,187,21-10-2023,21:00,Estadio Municipal de Ipurua,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+14,Guillermo Cuadra Fernández,188,29-10-2023,12:00,Estadio Municipal de Ipurua,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+14,Guillermo Cuadra Fernández,188,29-10-2023,12:00,Estadio Municipal de Ipurua,14,Ángel,Correa,27,Forward,Argentina,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,7,Maximizar Marketing
+2,Antonio Miguel Mateu Lahoz,189,04-11-2023,18:30,Estadio Municipal de Ipurua,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+2,Antonio Miguel Mateu Lahoz,189,04-11-2023,18:30,Estadio Municipal de Ipurua,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+20,José Luis Munuera Montero,190,12-11-2023,12:00,Estadio Municipal de Ipurua,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+20,José Luis Munuera Montero,190,12-11-2023,12:00,Estadio Municipal de Ipurua,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+3,Javier Alberola Rojas,191,03-12-2023,16:30,Estadio Municipal de Ipurua,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+3,Javier Alberola Rojas,191,03-12-2023,16:30,Estadio Municipal de Ipurua,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+15,Alberto Undiano Mallenco,192,10-12-2023,21:00,Estadio Municipal de Ipurua,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+15,Alberto Undiano Mallenco,192,10-12-2023,21:00,Estadio Municipal de Ipurua,24,Iago,Aspas,34,Forward,Spain,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+13,David Medié Jiménez,193,23-12-2023,12:00,Estadio Municipal de Ipurua,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+13,David Medié Jiménez,193,23-12-2023,12:00,Estadio Municipal de Ipurua,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+17,Isidro Díaz de Mera Escuderos,194,30-12-2023,12:00,Estadio Municipal de Ipurua,20,David,Alaba,30,Defender,Austria,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+17,Isidro Díaz de Mera Escuderos,194,30-12-2023,12:00,Estadio Municipal de Ipurua,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+3,Javier Alberola Rojas,195,07-01-2024,12:00,Estadio Municipal de Ipurua,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+3,Javier Alberola Rojas,195,07-01-2024,12:00,Estadio Municipal de Ipurua,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+8,Mario Melero López,196,13-01-2024,21:00,Estadio Municipal de Ipurua,20,David,Alaba,30,Defender,Austria,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+8,Mario Melero López,196,13-01-2024,21:00,Estadio Municipal de Ipurua,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+3,Javier Alberola Rojas,197,21-01-2024,21:00,Estadio Municipal de Ipurua,20,David,Alaba,30,Defender,Austria,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+3,Javier Alberola Rojas,197,21-01-2024,21:00,Estadio Municipal de Ipurua,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+7,Adrián Cordero Vega,198,26-01-2024,21:00,Estadio Municipal de Ipurua,20,David,Alaba,30,Defender,Austria,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+7,Adrián Cordero Vega,198,26-01-2024,21:00,Estadio Municipal de Ipurua,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+4,Juan Martínez Munuera,199,10-09-2023,14:00,Coliseum Alfonso Pérez,22,Diego,Costa,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+4,Juan Martínez Munuera,199,10-09-2023,14:00,Coliseum Alfonso Pérez,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+16,José María Sánchez Martínez,200,17-09-2023,14:00,Coliseum Alfonso Pérez,22,Diego,Costa,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+16,José María Sánchez Martínez,200,17-09-2023,14:00,Coliseum Alfonso Pérez,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+20,José Luis Munuera Montero,201,23-09-2023,21:00,Coliseum Alfonso Pérez,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+20,José Luis Munuera Montero,201,23-09-2023,21:00,Coliseum Alfonso Pérez,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+6,Ricardo De Burgos Bengoetxea,202,01-10-2023,12:00,Coliseum Alfonso Pérez,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+6,Ricardo De Burgos Bengoetxea,202,01-10-2023,12:00,Coliseum Alfonso Pérez,6,Sergio,Ramos,37,Defender,Spain,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+16,José María Sánchez Martínez,203,08-10-2023,16:30,Coliseum Alfonso Pérez,22,Diego,Costa,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+16,José María Sánchez Martínez,203,08-10-2023,16:30,Coliseum Alfonso Pérez,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+10,Gil Manzano,204,14-10-2023,12:00,Coliseum Alfonso Pérez,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+10,Gil Manzano,204,14-10-2023,12:00,Coliseum Alfonso Pérez,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+9,Pablo González Fuertes,205,29-10-2023,16:30,Coliseum Alfonso Pérez,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+9,Pablo González Fuertes,205,29-10-2023,16:30,Coliseum Alfonso Pérez,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+15,Alberto Undiano Mallenco,206,11-11-2023,18:30,Coliseum Alfonso Pérez,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+15,Alberto Undiano Mallenco,206,11-11-2023,18:30,Coliseum Alfonso Pérez,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,7,Maximizar Marketing
+5,José Luis González González,207,19-11-2023,14:00,Coliseum Alfonso Pérez,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+5,José Luis González González,207,19-11-2023,14:00,Coliseum Alfonso Pérez,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+14,Guillermo Cuadra Fernández,208,26-11-2023,18:30,Coliseum Alfonso Pérez,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+14,Guillermo Cuadra Fernández,208,26-11-2023,18:30,Coliseum Alfonso Pérez,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+4,Juan Martínez Munuera,209,02-12-2023,18:30,Coliseum Alfonso Pérez,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+4,Juan Martínez Munuera,209,02-12-2023,18:30,Coliseum Alfonso Pérez,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+18,José Antonio López Toca,210,25-12-2023,21:00,Coliseum Alfonso Pérez,22,Diego,Costa,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+18,José Antonio López Toca,210,25-12-2023,21:00,Coliseum Alfonso Pérez,24,Iago,Aspas,34,Forward,Spain,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+8,Mario Melero López,211,31-12-2023,18:30,Coliseum Alfonso Pérez,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+8,Mario Melero López,211,31-12-2023,18:30,Coliseum Alfonso Pérez,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+12,César Soto Grado,212,07-01-2024,16:30,Coliseum Alfonso Pérez,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+12,César Soto Grado,212,07-01-2024,16:30,Coliseum Alfonso Pérez,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+2,Antonio Miguel Mateu Lahoz,213,14-01-2024,14:00,Coliseum Alfonso Pérez,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+2,Antonio Miguel Mateu Lahoz,213,14-01-2024,14:00,Coliseum Alfonso Pérez,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+1,Carlos Velasco Carballo,214,20-01-2024,18:30,Coliseum Alfonso Pérez,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+1,Carlos Velasco Carballo,214,20-01-2024,18:30,Coliseum Alfonso Pérez,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+12,César Soto Grado,215,27-01-2024,18:30,Coliseum Alfonso Pérez,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+12,César Soto Grado,215,27-01-2024,18:30,Coliseum Alfonso Pérez,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+15,Alberto Undiano Mallenco,216,04-02-2024,12:00,Coliseum Alfonso Pérez,22,Diego,Costa,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+15,Alberto Undiano Mallenco,216,04-02-2024,12:00,Coliseum Alfonso Pérez,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+4,Juan Martínez Munuera,217,03-09-2023,18:30,Estadio Nuevo Los Cármenes,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+4,Juan Martínez Munuera,217,03-09-2023,18:30,Estadio Nuevo Los Cármenes,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+2,Antonio Miguel Mateu Lahoz,218,23-09-2023,18:30,Estadio Nuevo Los Cármenes,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+2,Antonio Miguel Mateu Lahoz,218,23-09-2023,18:30,Estadio Nuevo Los Cármenes,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+5,José Luis González González,219,01-10-2023,18:30,Estadio Nuevo Los Cármenes,24,Iago,Aspas,34,Forward,Spain,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+5,José Luis González González,219,01-10-2023,18:30,Estadio Nuevo Los Cármenes,4,Vinícius,Junior,22,Forward,Brazil,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+14,Guillermo Cuadra Fernández,220,15-10-2023,12:00,Estadio Nuevo Los Cármenes,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+14,Guillermo Cuadra Fernández,220,15-10-2023,12:00,Estadio Nuevo Los Cármenes,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+2,Antonio Miguel Mateu Lahoz,221,22-10-2023,12:00,Estadio Nuevo Los Cármenes,24,Iago,Aspas,34,Forward,Spain,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+2,Antonio Miguel Mateu Lahoz,221,22-10-2023,12:00,Estadio Nuevo Los Cármenes,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+13,David Medié Jiménez,222,18-11-2023,21:00,Estadio Nuevo Los Cármenes,24,Iago,Aspas,34,Forward,Spain,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+13,David Medié Jiménez,222,18-11-2023,21:00,Estadio Nuevo Los Cármenes,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+7,Adrián Cordero Vega,223,25-11-2023,16:30,Estadio Nuevo Los Cármenes,24,Iago,Aspas,34,Forward,Spain,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+7,Adrián Cordero Vega,223,25-11-2023,16:30,Estadio Nuevo Los Cármenes,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+5,José Luis González González,224,03-12-2023,12:00,Estadio Nuevo Los Cármenes,24,Iago,Aspas,34,Forward,Spain,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+5,José Luis González González,224,03-12-2023,12:00,Estadio Nuevo Los Cármenes,14,Ángel,Correa,27,Forward,Argentina,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,7,Maximizar Marketing
+9,Pablo González Fuertes,225,24-12-2023,14:00,Estadio Nuevo Los Cármenes,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+9,Pablo González Fuertes,225,24-12-2023,14:00,Estadio Nuevo Los Cármenes,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+8,Mario Melero López,226,30-12-2023,14:00,Estadio Nuevo Los Cármenes,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+8,Mario Melero López,226,30-12-2023,14:00,Estadio Nuevo Los Cármenes,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+20,José Luis Munuera Montero,227,15-01-2024,21:00,Estadio Nuevo Los Cármenes,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+20,José Luis Munuera Montero,227,15-01-2024,21:00,Estadio Nuevo Los Cármenes,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+13,David Medié Jiménez,228,20-01-2024,14:00,Estadio Nuevo Los Cármenes,24,Iago,Aspas,34,Forward,Spain,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+13,David Medié Jiménez,228,20-01-2024,14:00,Estadio Nuevo Los Cármenes,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+12,César Soto Grado,229,12-02-2024,21:00,Estadio Nuevo Los Cármenes,24,Iago,Aspas,34,Forward,Spain,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+12,César Soto Grado,229,12-02-2024,21:00,Estadio Nuevo Los Cármenes,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+5,José Luis González González,230,19-02-2024,21:00,Estadio Nuevo Los Cármenes,24,Iago,Aspas,34,Forward,Spain,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+5,José Luis González González,230,19-02-2024,21:00,Estadio Nuevo Los Cármenes,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+7,Adrián Cordero Vega,231,24-02-2024,16:30,Estadio Nuevo Los Cármenes,24,Iago,Aspas,34,Forward,Spain,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+7,Adrián Cordero Vega,231,24-02-2024,16:30,Estadio Nuevo Los Cármenes,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+10,Gil Manzano,232,01-03-2024,21:00,Estadio Nuevo Los Cármenes,24,Iago,Aspas,34,Forward,Spain,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+10,Gil Manzano,232,01-03-2024,21:00,Estadio Nuevo Los Cármenes,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+6,Ricardo De Burgos Bengoetxea,233,10-03-2024,12:00,Estadio Nuevo Los Cármenes,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+6,Ricardo De Burgos Bengoetxea,233,10-03-2024,12:00,Estadio Nuevo Los Cármenes,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+3,Javier Alberola Rojas,234,18-03-2024,21:00,Estadio Nuevo Los Cármenes,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+3,Javier Alberola Rojas,234,18-03-2024,21:00,Estadio Nuevo Los Cármenes,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+17,Isidro Díaz de Mera Escuderos,235,19-08-2023,17:30,Estadio Municipal de Butarque,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+17,Isidro Díaz de Mera Escuderos,235,19-08-2023,17:30,Estadio Municipal de Butarque,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+1,Carlos Velasco Carballo,236,10-09-2023,18:30,Estadio Municipal de Butarque,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+1,Carlos Velasco Carballo,236,10-09-2023,18:30,Estadio Municipal de Butarque,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+6,Ricardo De Burgos Bengoetxea,237,21-10-2023,14:00,Estadio Municipal de Butarque,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+6,Ricardo De Burgos Bengoetxea,237,21-10-2023,14:00,Estadio Municipal de Butarque,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+5,José Luis González González,238,05-11-2023,12:00,Estadio Municipal de Butarque,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+5,José Luis González González,238,05-11-2023,12:00,Estadio Municipal de Butarque,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+2,Antonio Miguel Mateu Lahoz,239,11-11-2023,16:30,Estadio Municipal de Butarque,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+2,Antonio Miguel Mateu Lahoz,239,11-11-2023,16:30,Estadio Municipal de Butarque,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+9,Pablo González Fuertes,240,10-12-2023,16:30,Estadio Municipal de Butarque,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+9,Pablo González Fuertes,240,10-12-2023,16:30,Estadio Municipal de Butarque,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+10,Gil Manzano,241,24-12-2023,18:30,Estadio Municipal de Butarque,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+10,Gil Manzano,241,24-12-2023,18:30,Estadio Municipal de Butarque,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+11,Ignacio Iglesias Villanueva,242,06-01-2024,14:00,Estadio Municipal de Butarque,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+11,Ignacio Iglesias Villanueva,242,06-01-2024,14:00,Estadio Municipal de Butarque,14,Ángel,Correa,27,Forward,Argentina,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,25,Grupo de Crecimiento Global
+8,Mario Melero López,243,22-01-2024,21:00,Estadio Municipal de Butarque,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+8,Mario Melero López,243,22-01-2024,21:00,Estadio Municipal de Butarque,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+17,Isidro Díaz de Mera Escuderos,244,27-01-2024,12:00,Estadio Municipal de Butarque,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+17,Isidro Díaz de Mera Escuderos,244,27-01-2024,12:00,Estadio Municipal de Butarque,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+8,Mario Melero López,245,02-02-2024,21:00,Estadio Municipal de Butarque,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+8,Mario Melero López,245,02-02-2024,21:00,Estadio Municipal de Butarque,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+19,José Munuera Montero,246,10-02-2024,12:00,Estadio Municipal de Butarque,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+19,José Munuera Montero,246,10-02-2024,12:00,Estadio Municipal de Butarque,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+16,José María Sánchez Martínez,247,17-02-2024,21:00,Estadio Municipal de Butarque,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+16,José María Sánchez Martínez,247,17-02-2024,21:00,Estadio Municipal de Butarque,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+18,José Antonio López Toca,248,02-03-2024,18:30,Estadio Municipal de Butarque,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+18,José Antonio López Toca,248,02-03-2024,18:30,Estadio Municipal de Butarque,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+5,José Luis González González,249,11-03-2024,21:00,Estadio Municipal de Butarque,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+5,José Luis González González,249,11-03-2024,21:00,Estadio Municipal de Butarque,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+17,Isidro Díaz de Mera Escuderos,250,17-03-2024,18:30,Estadio Municipal de Butarque,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+17,Isidro Díaz de Mera Escuderos,250,17-03-2024,18:30,Estadio Municipal de Butarque,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+18,José Antonio López Toca,251,22-03-2024,21:00,Estadio Municipal de Butarque,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+18,José Antonio López Toca,251,22-03-2024,21:00,Estadio Municipal de Butarque,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+7,Adrián Cordero Vega,252,30-03-2024,14:00,Estadio Municipal de Butarque,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+7,Adrián Cordero Vega,252,30-03-2024,14:00,Estadio Municipal de Butarque,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+6,Ricardo De Burgos Bengoetxea,253,03-09-2023,21:00,Estadi de Son Moix,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+6,Ricardo De Burgos Bengoetxea,253,03-09-2023,21:00,Estadi de Son Moix,1,Lionel,Messi,36,Forward,Argentina,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+5,José Luis González González,254,08-10-2023,12:00,Estadi de Son Moix,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+5,José Luis González González,254,08-10-2023,12:00,Estadi de Son Moix,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+15,Alberto Undiano Mallenco,255,21-10-2023,16:30,Estadi de Son Moix,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+15,Alberto Undiano Mallenco,255,21-10-2023,16:30,Estadi de Son Moix,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+16,José María Sánchez Martínez,256,05-11-2023,18:30,Estadi de Son Moix,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+16,José María Sánchez Martínez,256,05-11-2023,18:30,Estadi de Son Moix,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+14,Guillermo Cuadra Fernández,257,26-11-2023,12:00,Estadi de Son Moix,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+14,Guillermo Cuadra Fernández,257,26-11-2023,12:00,Estadi de Son Moix,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+4,Juan Martínez Munuera,258,17-12-2023,14:00,Estadi de Son Moix,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+4,Juan Martínez Munuera,258,17-12-2023,14:00,Estadi de Son Moix,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+13,David Medié Jiménez,259,23-12-2023,16:30,Estadi de Son Moix,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+13,David Medié Jiménez,259,23-12-2023,16:30,Estadi de Son Moix,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+3,Javier Alberola Rojas,260,31-12-2023,21:00,Estadi de Son Moix,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+3,Javier Alberola Rojas,260,31-12-2023,21:00,Estadi de Son Moix,14,Ángel,Correa,27,Forward,Argentina,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,7,Maximizar Marketing
+4,Juan Martínez Munuera,261,07-01-2024,18:30,Estadi de Son Moix,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+4,Juan Martínez Munuera,261,07-01-2024,18:30,Estadi de Son Moix,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+13,David Medié Jiménez,262,13-01-2024,14:00,Estadi de Son Moix,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+13,David Medié Jiménez,262,13-01-2024,14:00,Estadi de Son Moix,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+14,Guillermo Cuadra Fernández,263,20-01-2024,16:30,Estadi de Son Moix,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+14,Guillermo Cuadra Fernández,263,20-01-2024,16:30,Estadi de Son Moix,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+6,Ricardo De Burgos Bengoetxea,264,27-01-2024,14:00,Estadi de Son Moix,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+6,Ricardo De Burgos Bengoetxea,264,27-01-2024,14:00,Estadi de Son Moix,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+5,José Luis González González,265,03-02-2024,18:30,Estadi de Son Moix,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+5,José Luis González González,265,03-02-2024,18:30,Estadi de Son Moix,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+7,Adrián Cordero Vega,266,10-02-2024,16:30,Estadi de Son Moix,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+7,Adrián Cordero Vega,266,10-02-2024,16:30,Estadi de Son Moix,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+6,Ricardo De Burgos Bengoetxea,267,25-02-2024,18:30,Estadi de Son Moix,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+6,Ricardo De Burgos Bengoetxea,267,25-02-2024,18:30,Estadi de Son Moix,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+20,José Luis Munuera Montero,268,03-03-2024,21:00,Estadi de Son Moix,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+20,José Luis Munuera Montero,268,03-03-2024,21:00,Estadi de Son Moix,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+14,Guillermo Cuadra Fernández,269,25-03-2024,21:00,Estadi de Son Moix,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+14,Guillermo Cuadra Fernández,269,25-03-2024,21:00,Estadi de Son Moix,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+6,Ricardo De Burgos Bengoetxea,270,30-03-2024,16:30,Estadi de Son Moix,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+6,Ricardo De Burgos Bengoetxea,270,30-03-2024,16:30,Estadi de Son Moix,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+9,Pablo González Fuertes,271,21-10-2023,18:30,Estadio Martínez Valero,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+9,Pablo González Fuertes,271,21-10-2023,18:30,Estadio Martínez Valero,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+15,Alberto Undiano Mallenco,272,18-11-2023,18:30,Estadio Martínez Valero,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+15,Alberto Undiano Mallenco,272,18-11-2023,18:30,Estadio Martínez Valero,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+18,José Antonio López Toca,273,17-12-2023,12:00,Estadio Martínez Valero,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+18,José Antonio López Toca,273,17-12-2023,12:00,Estadio Martínez Valero,4,Vinícius,Junior,22,Forward,Brazil,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+13,David Medié Jiménez,274,31-12-2023,16:30,Estadio Martínez Valero,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+13,David Medié Jiménez,274,31-12-2023,16:30,Estadio Martínez Valero,6,Sergio,Ramos,37,Defender,Spain,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+8,Mario Melero López,275,05-01-2024,21:00,Estadio Martínez Valero,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+8,Mario Melero López,275,05-01-2024,21:00,Estadio Martínez Valero,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+11,Ignacio Iglesias Villanueva,276,13-01-2024,18:30,Estadio Martínez Valero,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+11,Ignacio Iglesias Villanueva,276,13-01-2024,18:30,Estadio Martínez Valero,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+6,Ricardo De Burgos Bengoetxea,277,20-01-2024,21:00,Estadio Martínez Valero,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+6,Ricardo De Burgos Bengoetxea,277,20-01-2024,21:00,Estadio Martínez Valero,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+7,Adrián Cordero Vega,278,27-01-2024,21:00,Estadio Martínez Valero,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+7,Adrián Cordero Vega,278,27-01-2024,21:00,Estadio Martínez Valero,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,25,Grupo de Crecimiento Global
+4,Juan Martínez Munuera,279,04-02-2024,16:30,Estadio Martínez Valero,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+4,Juan Martínez Munuera,279,04-02-2024,16:30,Estadio Martínez Valero,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+18,José Antonio López Toca,280,10-02-2024,21:00,Estadio Martínez Valero,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+18,José Antonio López Toca,280,10-02-2024,21:00,Estadio Martínez Valero,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+5,José Luis González González,281,17-02-2024,18:30,Estadio Martínez Valero,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+5,José Luis González González,281,17-02-2024,18:30,Estadio Martínez Valero,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+7,Adrián Cordero Vega,282,23-02-2024,21:00,Estadio Martínez Valero,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+7,Adrián Cordero Vega,282,23-02-2024,21:00,Estadio Martínez Valero,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+19,José Munuera Montero,283,04-03-2024,21:00,Estadio Martínez Valero,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+19,José Munuera Montero,283,04-03-2024,21:00,Estadio Martínez Valero,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+18,José Antonio López Toca,284,23-03-2024,16:30,Estadio Martínez Valero,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+18,José Antonio López Toca,284,23-03-2024,16:30,Estadio Martínez Valero,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+2,Antonio Miguel Mateu Lahoz,285,01-04-2024,21:00,Estadio Martínez Valero,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+2,Antonio Miguel Mateu Lahoz,285,01-04-2024,21:00,Estadio Martínez Valero,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+14,Guillermo Cuadra Fernández,286,12-04-2024,21:00,Estadio Martínez Valero,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+14,Guillermo Cuadra Fernández,286,12-04-2024,21:00,Estadio Martínez Valero,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+18,José Antonio López Toca,287,20-04-2024,12:00,Estadio Martínez Valero,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+18,José Antonio López Toca,287,20-04-2024,12:00,Estadio Martínez Valero,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+17,Isidro Díaz de Mera Escuderos,288,29-04-2024,21:00,Estadio Martínez Valero,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+17,Isidro Díaz de Mera Escuderos,288,29-04-2024,21:00,Estadio Martínez Valero,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+11,Ignacio Iglesias Villanueva,289,21-10-2023,12:00,Estadio de Vallecas,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+11,Ignacio Iglesias Villanueva,289,21-10-2023,12:00,Estadio de Vallecas,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+20,José Luis Munuera Montero,290,19-11-2023,12:00,Estadio de Vallecas,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+20,José Luis Munuera Montero,290,19-11-2023,12:00,Estadio de Vallecas,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+16,José María Sánchez Martínez,291,17-12-2023,21:00,Estadio de Vallecas,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+16,José María Sánchez Martínez,291,17-12-2023,21:00,Estadio de Vallecas,4,Vinícius,Junior,22,Forward,Brazil,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+4,Juan Martínez Munuera,292,31-12-2023,14:00,Estadio de Vallecas,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+4,Juan Martínez Munuera,292,31-12-2023,14:00,Estadio de Vallecas,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+16,José María Sánchez Martínez,293,07-01-2024,21:00,Estadio de Vallecas,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+16,José María Sánchez Martínez,293,07-01-2024,21:00,Estadio de Vallecas,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+1,Carlos Velasco Carballo,294,14-01-2024,21:00,Estadio de Vallecas,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+1,Carlos Velasco Carballo,294,14-01-2024,21:00,Estadio de Vallecas,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+6,Ricardo De Burgos Bengoetxea,295,21-01-2024,14:00,Estadio de Vallecas,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+6,Ricardo De Burgos Bengoetxea,295,21-01-2024,14:00,Estadio de Vallecas,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+18,José Antonio López Toca,296,28-01-2024,21:00,Estadio de Vallecas,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+18,José Antonio López Toca,296,28-01-2024,21:00,Estadio de Vallecas,14,Ángel,Correa,27,Forward,Argentina,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,7,Maximizar Marketing
+11,Ignacio Iglesias Villanueva,297,03-02-2024,16:30,Estadio de Vallecas,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+11,Ignacio Iglesias Villanueva,297,03-02-2024,16:30,Estadio de Vallecas,16,Jan,Oblak,31,Goalkeeper,Slovenia,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+3,Javier Alberola Rojas,298,09-02-2024,21:00,Estadio de Vallecas,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+3,Javier Alberola Rojas,298,09-02-2024,21:00,Estadio de Vallecas,18,Sergi,Roberto,30,Midfielder,Spain,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+19,José Munuera Montero,299,18-02-2024,18:30,Estadio de Vallecas,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+19,José Munuera Montero,299,18-02-2024,18:30,Estadio de Vallecas,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+14,Guillermo Cuadra Fernández,300,26-02-2024,21:00,Estadio de Vallecas,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+14,Guillermo Cuadra Fernández,300,26-02-2024,21:00,Estadio de Vallecas,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+3,Javier Alberola Rojas,301,03-03-2024,14:00,Estadio de Vallecas,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+3,Javier Alberola Rojas,301,03-03-2024,14:00,Estadio de Vallecas,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+14,Guillermo Cuadra Fernández,302,10-03-2024,16:30,Estadio de Vallecas,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+14,Guillermo Cuadra Fernández,302,10-03-2024,16:30,Estadio de Vallecas,28,Aitor,Ruibal,26,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+20,José Luis Munuera Montero,303,23-03-2024,12:00,Estadio de Vallecas,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+20,José Luis Munuera Montero,303,23-03-2024,12:00,Estadio de Vallecas,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+17,Isidro Díaz de Mera Escuderos,304,29-03-2024,21:00,Estadio de Vallecas,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+17,Isidro Díaz de Mera Escuderos,304,29-03-2024,21:00,Estadio de Vallecas,32,Ousmane,Dembélé,25,Forward,France,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+2,Antonio Miguel Mateu Lahoz,305,13-04-2024,16:30,Estadio de Vallecas,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+2,Antonio Miguel Mateu Lahoz,305,13-04-2024,16:30,Estadio de Vallecas,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+10,Gil Manzano,306,20-04-2024,18:30,Estadio de Vallecas,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+10,Gil Manzano,306,20-04-2024,18:30,Estadio de Vallecas,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+1,Carlos Velasco Carballo,307,22-10-2023,14:00,Estadio de Mendizorroza,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+1,Carlos Velasco Carballo,307,22-10-2023,14:00,Estadio de Mendizorroza,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+8,Mario Melero López,308,17-12-2023,18:30,Estadio de Mendizorroza,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+8,Mario Melero López,308,17-12-2023,18:30,Estadio de Mendizorroza,2,Karim,Benzema,35,Forward,France,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+5,José Luis González González,309,06-01-2024,16:30,Estadio de Mendizorroza,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+5,José Luis González González,309,06-01-2024,16:30,Estadio de Mendizorroza,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+8,Mario Melero López,310,14-01-2024,16:30,Estadio de Mendizorroza,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+8,Mario Melero López,310,14-01-2024,16:30,Estadio de Mendizorroza,6,Sergio,Ramos,37,Defender,Spain,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+3,Javier Alberola Rojas,311,21-01-2024,18:30,Estadio de Mendizorroza,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+3,Javier Alberola Rojas,311,21-01-2024,18:30,Estadio de Mendizorroza,8,Luis,Suárez,36,Forward,Uruguay,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+18,José Antonio López Toca,312,03-02-2024,21:00,Estadio de Mendizorroza,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+18,José Antonio López Toca,312,03-02-2024,21:00,Estadio de Mendizorroza,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+14,Guillermo Cuadra Fernández,313,10-02-2024,18:30,Estadio de Mendizorroza,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+14,Guillermo Cuadra Fernández,313,10-02-2024,18:30,Estadio de Mendizorroza,12,Casemiro, Iran, 30,Midfielder,Brazil,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+5,José Luis González González,314,24-02-2024,12:00,Estadio de Mendizorroza,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+5,José Luis González González,314,24-02-2024,12:00,Estadio de Mendizorroza,16,Jan,Oblak,31,Goalkeeper,Slovenia,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,7,Maximizar Marketing
+16,José María Sánchez Martínez,315,02-03-2024,16:30,Estadio de Mendizorroza,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+16,José María Sánchez Martínez,315,02-03-2024,16:30,Estadio de Mendizorroza,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+1,Carlos Velasco Carballo,316,10-03-2024,14:00,Estadio de Mendizorroza,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+1,Carlos Velasco Carballo,316,10-03-2024,14:00,Estadio de Mendizorroza,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+10,Gil Manzano,317,17-03-2024,16:30,Estadio de Mendizorroza,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+10,Gil Manzano,317,17-03-2024,16:30,Estadio de Mendizorroza,20,David,Alaba,30,Defender,Austria,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+12,César Soto Grado,318,06-04-2024,14:00,Estadio de Mendizorroza,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+12,César Soto Grado,318,06-04-2024,14:00,Estadio de Mendizorroza,22,Diego,Costa,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+13,David Medié Jiménez,319,15-04-2024,21:00,Estadio de Mendizorroza,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+13,David Medié Jiménez,319,15-04-2024,21:00,Estadio de Mendizorroza,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+8,Mario Melero López,320,21-04-2024,18:30,Estadio de Mendizorroza,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+8,Mario Melero López,320,21-04-2024,18:30,Estadio de Mendizorroza,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+9,Pablo González Fuertes,321,28-04-2024,12:00,Estadio de Mendizorroza,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+9,Pablo González Fuertes,321,28-04-2024,12:00,Estadio de Mendizorroza,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+7,Adrián Cordero Vega,322,06-05-2024,21:00,Estadio de Mendizorroza,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+7,Adrián Cordero Vega,322,06-05-2024,21:00,Estadio de Mendizorroza,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+11,Ignacio Iglesias Villanueva,323,10-05-2024,21:00,Estadio de Mendizorroza,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+11,Ignacio Iglesias Villanueva,323,10-05-2024,21:00,Estadio de Mendizorroza,32,Ousmane,Dembélé,25,Forward,France,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+15,Alberto Undiano Mallenco,324,25-05-2024,18:30,Estadio de Mendizorroza,36,Arnaiz,Sol,26,Forward,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
+15,Alberto Undiano Mallenco,324,25-05-2024,18:30,Estadio de Mendizorroza,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+2,Antonio Miguel Mateu Lahoz,325,22-10-2023,21:00,RCDE Stadium,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+2,Antonio Miguel Mateu Lahoz,325,22-10-2023,21:00,RCDE Stadium,2,Karim,Benzema,35,Forward,France,Real Madrid CF,Carlo Ancelotti,Florentino Pérez,16,Metas Grandes
+9,Pablo González Fuertes,326,14-01-2024,12:00,RCDE Stadium,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+9,Pablo González Fuertes,326,14-01-2024,12:00,RCDE Stadium,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
+8,Mario Melero López,327,04-02-2024,18:30,RCDE Stadium,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+8,Mario Melero López,327,04-02-2024,18:30,RCDE Stadium,6,Sergio,Ramos,37,Defender,Spain,Atlético Madrid,Diego Simeone,Miguel Ángel Gil Marín,22,Marketing Magistral
+19,José Munuera Montero,328,10-02-2024,14:00,RCDE Stadium,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+19,José Munuera Montero,328,10-02-2024,14:00,RCDE Stadium,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
+8,Mario Melero López,329,25-02-2024,16:30,RCDE Stadium,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+8,Mario Melero López,329,25-02-2024,16:30,RCDE Stadium,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
+9,Pablo González Fuertes,330,02-03-2024,14:00,RCDE Stadium,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+9,Pablo González Fuertes,330,02-03-2024,14:00,RCDE Stadium,10,Koke,Ruibal,30,Midfielder,Spain,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+16,José María Sánchez Martínez,331,10-03-2024,18:30,RCDE Stadium,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+16,José María Sánchez Martínez,331,10-03-2024,18:30,RCDE Stadium,14,Ángel,Correa,27,Forward,Argentina,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
+2,Antonio Miguel Mateu Lahoz,332,16-03-2024,12:00,RCDE Stadium,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+2,Antonio Miguel Mateu Lahoz,332,16-03-2024,12:00,RCDE Stadium,14,Ángel,Correa,27,Forward,Argentina,Real Betis,Manuel Pellegrini,Ángel Haro García and José Miguel López Catalán,7,Maximizar Marketing
+7,Adrián Cordero Vega,333,23-03-2024,21:00,RCDE Stadium,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+7,Adrián Cordero Vega,333,23-03-2024,21:00,RCDE Stadium,18,Sergi,Roberto,30,Midfielder,Spain,Athletic Bilbao,Marcelino García Toral,Aitor Elizegi,11,Dinámica Dinámica
+13,David Medié Jiménez,334,31-03-2024,21:00,RCDE Stadium,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+13,David Medié Jiménez,334,31-03-2024,21:00,RCDE Stadium,20,David,Alaba,30,Defender,Austria,Levante UD,Paco López,Quico Catalán,28,Fondos de Primera Clase
+4,Juan Martínez Munuera,335,06-04-2024,18:30,RCDE Stadium,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+4,Juan Martínez Munuera,335,06-04-2024,18:30,RCDE Stadium,22,Diego,Costa,34,Forward,Spain,SD Eibar,Jose Luis Mendilibar,Asier Etxeandía,17,Sponsors Estratégicos
+12,César Soto Grado,336,13-04-2024,12:00,RCDE Stadium,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+12,César Soto Grado,336,13-04-2024,12:00,RCDE Stadium,24,Iago,Aspas,34,Forward,Spain,Getafe CF,Michel,Ángel Torres Sánchez,27,Asociaciones de la Cima
+13,David Medié Jiménez,337,21-04-2024,14:00,RCDE Stadium,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+13,David Medié Jiménez,337,21-04-2024,14:00,RCDE Stadium,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
+20,José Luis Munuera Montero,338,03-05-2024,21:00,RCDE Stadium,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+20,José Luis Munuera Montero,338,03-05-2024,21:00,RCDE Stadium,26,Youssef,En-Nesyri,25,Forward,Morocco,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+19,José Munuera Montero,339,12-05-2024,16:30,RCDE Stadium,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+19,José Munuera Montero,339,12-05-2024,16:30,RCDE Stadium,28,Aitor,Ruibal,26,Forward,Spain,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
+20,José Luis Munuera Montero,340,20-05-2024,21:00,RCDE Stadium,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+20,José Luis Munuera Montero,340,20-05-2024,21:00,RCDE Stadium,30,Kubo,Kubi,21,Forward,Japan,Elche CF,Alfredo Pardo,Villar Mir family,8,Aventuras de la Victoria
+6,Ricardo De Burgos Bengoetxea,341,25-05-2024,16:30,RCDE Stadium,38,Carlos,Soler,25,Midfielder,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+6,Ricardo De Burgos Bengoetxea,341,25-05-2024,16:30,RCDE Stadium,34,Diego,Llorente,28,Defender,Spain,Rayo Vallecano,Andoni Iraola,Raúl Martín Presa,20,Estrategias de Éxito
+20,José Luis Munuera Montero,342,31-05-2024,21:00,RCDE Stadium,36,Arnaiz,Sol,26,Forward,Spain,RCD Espanyol,Vicente Moreno,Chen Yansheng,19,Unidad Definitiva
+20,José Luis Munuera Montero,342,31-05-2024,21:00,RCDE Stadium,34,Diego,Llorente,28,Defender,Spain,Alavés,Abelardo Fernández,José Antonio Querejeta,30,Estrategias Supremas
