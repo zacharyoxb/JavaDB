@@ -113,7 +113,7 @@ public class DBBuilder {
             // Go through first time: add all teams and their players/sponsors
             for(String[] row : csvList) {
                 // check if ref entry already exists: if not, add it
-                if(!isInTable("Referees", "Referee_id", Integer.parseInt(row[0]))) {
+                if(!isInTable(connection,"Referees", "Referee_id", Integer.parseInt(row[0]))) {
                     String insertString = "INSERT INTO Referees (Referee_id, Referee_name) VALUES (?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
                         preparedStatement.setInt(1, Integer.parseInt(row[0]));
@@ -122,7 +122,7 @@ public class DBBuilder {
                     }
                 }
                 // check if teams entry already exists: if not, add it
-                if(!isInTable("Teams", "Team_name", row[12])) {
+                if(!isInTable(connection, "Teams", "Team_name", row[12])) {
                     String insertString = "INSERT INTO Teams (Team_name, Manager, Owner) VALUES (?, ?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
                         preparedStatement.setString(1, row[12]);
@@ -146,36 +146,32 @@ public class DBBuilder {
      * @param column_value name of value to check
      * @return true if already exists, false if not
      */
-    public static <T> boolean isInTable(String tableName, String column_name, T column_value) {
+    public static <T> boolean isInTable(Connection connection, String tableName, String column_name, T column_value) {
         String sql = String.format("SELECT * FROM %s WHERE %s = ?", tableName, column_name);
-
-        try(Connection connection = DriverManager.getConnection(url)) {
-            try(Statement statement = connection.createStatement()) {
-                statement.executeUpdate("USE LaLiga");
+        try(Statement statement = connection.createStatement()) {
+            statement.executeUpdate("USE LaLiga");
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+            // type check
+            if(column_value.getClass() == Integer.class) {
+                preparedStatement.setInt(1, (Integer) column_value);
+            } else if(column_value.getClass() == String.class) {
+                preparedStatement.setString(1, (String) column_value);
             }
-            try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
-                // type check
-                if(column_value.getClass() == Integer.class) {
-                    preparedStatement.setInt(1, (Integer) column_value);
-                } else if(column_value.getClass() == String.class) {
-                    preparedStatement.setString(1, (String) column_value);
-                }
 
-                try(ResultSet resultSet = preparedStatement.executeQuery()) {
-                    if(resultSet.next()) {
-                        return true;
-                    }
-                    else {
-                        return false;
-                    }
+            try(ResultSet resultSet = preparedStatement.executeQuery()) {
+                if(resultSet.next()) {
+                    return true;
                 }
-            } catch(SQLException e) {
-                e.printStackTrace();
+                else {
+                    return false;
+                }
             }
         } catch(SQLException e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
-        return false;
     }
 
     public static void main(String[] args) {
