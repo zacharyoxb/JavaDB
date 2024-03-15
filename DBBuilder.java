@@ -189,11 +189,12 @@ public class DBBuilder {
                          "GROUP BY Referees.Referee_name\n";
                 System.out.println("\nExecuting query:\n" + refQuery + "\n");
                 ResultSet resultSet = statement.executeQuery(refQuery.replace("\n", ""));
-                System.out.println("Referee_name  |  Games Officiated\n");
+
+                
                 while(resultSet.next()) {
                     String refName = resultSet.getString("Referee_name");
                     int gamesOfficiated = resultSet.getInt("Games_officiated");
-                    System.out.println(refName + "  |  " + gamesOfficiated);
+                    System.out.printf("%-10s|%-10s\n", refName, gamesOfficiated);
                 }
             } catch(SQLException e) {
                 throw new RuntimeException();
