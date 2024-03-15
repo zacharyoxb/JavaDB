@@ -83,23 +83,22 @@ public class DBBuilder {
                         preparedStatement.executeUpdate();
                     }
                 }
-
+                
                 // add to Sponsors table
-                if(notInTable(connection, "Sponsors", "Sponsor_id", row[16])) {
+                if(notInTable(connection, "Sponsors", "Sponsor_id", row[15])) {
                     String insertString = "INSERT INTO Sponsors (Sponsor_id, Sponsor_name) VALUES (?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
-                        preparedStatement.setInt(1, Integer.parseInt(row[16]));
-                        preparedStatement.setString(2, row[17]);
+                        preparedStatement.setInt(1, Integer.parseInt(row[15]));
+                        preparedStatement.setString(2, row[16]);
                         preparedStatement.executeUpdate();
                     }
                 }
-
                 // add to SUPPORTS table
                 if(notInRelationalTable(connection, "SUPPORTS", "Sponsor_id", "Team_name",
-                        row[16], row[12])) {
+                        row[15], row[12])) {
                     String insertString = "INSERT INTO SUPPORTS (Sponsor_id, Team_name) VALUES (?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
-                        preparedStatement.setInt(1, Integer.parseInt(row[16]));
+                        preparedStatement.setInt(1, Integer.parseInt(row[15]));
                         preparedStatement.setString(2, row[12]);
                         preparedStatement.executeUpdate();
                     }
@@ -107,7 +106,7 @@ public class DBBuilder {
 
                 // add to Players table
                 if(notInTable(connection, "Players", "Player_id", row[6])) {
-                    String insertString = "INSERT INTO Player (Player_id, First_name, Last_name, Age, Position, " +
+                    String insertString = "INSERT INTO Players (Player_id, First_name, Last_name, Age, Position, " +
                             "Nationality) VALUES (?, ?, ?, ?, ?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
                         preparedStatement.setInt(1, Integer.parseInt(row[6]));
@@ -121,24 +120,25 @@ public class DBBuilder {
                 }
 
                 // add to PLAYSFOR table
-                if(notInRelationalTable(connection, "PLAYSFOR", "Player_id", "Team_name",
+                if(notInRelationalTable(connection, "PLAYSFOR","Player_id","Team_name",
                         row[6], row[12])) {
-                    String insertString = "INSERT INTO PLAYSFOR (Teams_name, Player_id) VALUES (?, ?)";
+                    String insertString = "INSERT INTO PLAYSFOR (Player_id, Team_name) VALUES (?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
-                        preparedStatement.setString(1, row[6]);
-                        preparedStatement.setInt(2, Integer.parseInt(row[12]));
+                        preparedStatement.setInt(1, Integer.parseInt(row[6]));
+                        preparedStatement.setString(2, row[12]);
                         preparedStatement.executeUpdate();
                     }
                 }
 
                 // add to Games table
                 if(notInTable(connection, "Games", "Game_id", row[2])) {
-                    String insertString = "INSERT INTO Games (Game_id, Date, Time, Location) VALUES (?, ?, ?, ?)";
+                    String insertString = "INSERT INTO Games (Game_id, Date, Time, Location, Referee_id) VALUES (?, ?, ?, ?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
                         preparedStatement.setInt(1, Integer.parseInt(row[2]));
                         preparedStatement.setString(2, row[3]);
                         preparedStatement.setString(3, row[4]);
                         preparedStatement.setString(4, row[5]);
+                        preparedStatement.setString(5, row[0]);
                         preparedStatement.executeUpdate();
                     }
                 }
@@ -218,8 +218,8 @@ public class DBBuilder {
                 ")";
 
         String playsForTable = "PLAYSFOR (" +
-                "Team_name VARCHAR(50) PRIMARY KEY," +
-                "Player_id INT," +
+                "Player_id INT PRIMARY KEY," +
+                "Team_name VARCHAR(50)," +
                 "FOREIGN KEY (Team_name) REFERENCES Teams(Team_name) ON DELETE CASCADE," +
                 "FOREIGN KEY (Player_id) REFERENCES Players(Player_id) ON DELETE CASCADE" +
                 ")";
@@ -287,7 +287,7 @@ public class DBBuilder {
             if(keyValue1.getClass() == Integer.class) {
                 preparedStatement.setInt(1, (Integer) keyValue1);
             } else if(keyValue1.getClass() == String.class) {
-                preparedStatement.setString(1, (String) keyValue2);
+                preparedStatement.setString(1, (String) keyValue1);
             }
 
             // key 2
