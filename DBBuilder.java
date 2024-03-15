@@ -199,6 +199,27 @@ public class DBBuilder {
             } catch(SQLException e) {
                 throw new RuntimeException();
             }
+
+            try(Statement statement = connection.createStatement()) {
+                String ageQuery = "SELECT Team_name, AVG(Age) AS Average_age \n" +
+                "FROM TEAMS\n" +
+                "JOIN PLAYSFOR ON TEAMS.Team_name = PLAYSFOR.Team_name\n" +
+                "JOIN Players ON PLAYSFOR.Player_id = Players.Player_id\n" +
+                "GROUP BY Team_name\n" +
+                "HAVING AVG(Age) > 25";
+                System.out.println("\nExecuting query:\n" + ageQuery + "\n");
+                ResultSet resultSet = statement.executeQuery(ageQuery.replace("\n", ""));
+
+                System.out.printf("%-10s|%-10s", "Team_name", "Average_age\n");
+                while(resultSet.next()) {
+                    String teamName = resultSet.getString("Team_name");
+                    int averageAge = resultSet.getInt("Average_age");
+                    System.out.printf("%-10s|%-10s\n", teamName, averageAge);
+                }
+                
+            } catch(SQLException e) {
+                throw new RuntimeException();
+            }
         } catch(SQLException e) {
             throw new RuntimeException();
         }
