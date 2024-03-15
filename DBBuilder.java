@@ -186,11 +186,11 @@ public class DBBuilder {
                 String refQuery = "SELECT Referees.Referee_name, COUNT(Games.Referee_id) AS Games_officiated \n" +
                          "FROM Referees \n" +
                          "JOIN Games ON Referees.Referee_id = Games.Referee_id \n" +
-                         "GROUP BY Referees.Referee_name\n";
+                         "GROUP BY Referees.Referee_name";
                 System.out.println("\nExecuting query:\n" + refQuery + "\n");
                 ResultSet resultSet = statement.executeQuery(refQuery.replace("\n", ""));
 
-                
+                System.out.printf("%-10s|%-10s", "Referee_name", "Games_officiated\n");
                 while(resultSet.next()) {
                     String refName = resultSet.getString("Referee_name");
                     int gamesOfficiated = resultSet.getInt("Games_officiated");
