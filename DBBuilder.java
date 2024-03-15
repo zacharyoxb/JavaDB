@@ -55,7 +55,8 @@ public class DBBuilder {
 
             // make statements
             try(Statement statement = connection.createStatement()) {
-                statement.executeUpdate("CREATE DATABASE IF NOT EXISTS LaLiga");
+                statement.executeUpdate("DROP DATABASE IF EXISTS LaLiga");
+                statement.executeUpdate("CREATE DATABASE LaLiga");
                 statement.executeUpdate("USE LaLiga");
                 for(String table : allTables) {
                     statement.executeUpdate("CREATE TABLE IF NOT EXISTS " + table);
@@ -154,24 +155,51 @@ public class DBBuilder {
                     }
                 }
             }
-            // REMOVE LATER
-            String sql = "SELECT * FROM Games";
-            try(PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
-                try(ResultSet resultSet = preparedStatement.executeQuery()) {
-                    while(resultSet.next()) {
-                        int gameId = resultSet.getInt(1);
-                        String date = resultSet.getString(2);
-                        String time = resultSet.getString(3);
-                        String location = resultSet.getString(4);
-                        System.out.printf("Game id: %d,\n Date: %s,\n Time: %s,\n Location: %s\n\n",
-                                gameId, date, time, location);
-                    }
-                }
-            }
-
-
         } catch(SQLException e) {
             throw new RuntimeException(e);
+        }
+    }
+
+    public static void executeQueries() {
+        try(Connection connection = DriverManager.getConnection(url)) {
+            try(Statement statement = connection.createStatement()) {
+                statement.executeQuery("USE LaLiga");
+            } catch(SQLException e) {
+                throw new RuntimeException();
+            }
+
+            try(Statement statement = connection.createStatement()) {
+                System.out.println("\nExecuting query:\nDELETE FROM Referees WHERE Referee_id = 4");
+                statement.executeQuery("DELETE FROM Referees WHERE Referee_id = 4");
+            } catch(SQLException e) {
+                System.out.println("Entered catch: DELETE REJECTED");
+            }
+
+            try(Statement statement = connection.createStatement()) {
+                System.out.println("\nExecuting query:\nDELETE FROM Teams WHERE Team_name = Villareal");
+                statement.executeQuery("DELETE FROM Teams WHERE Team_name = Villareal");
+            } catch(SQLException e) {
+                System.out.println("Entered catch: DELETE REJECTED");
+            }
+
+            try(Statement statement = connection.createStatement()) {
+                String refQuery = "SELECT Referees.Referee_name, COUNT(Games.Referee_id) AS Games_officiated \n" +
+                         "FROM Referees \n" +
+                         "JOIN Games ON Referees.Referee_id = Games.Referee_id \n" +
+                         "GROUP BY Referees.Referee_name\n";
+                System.out.println("\nExecuting query:\n" + refQuery + "\n");
+                ResultSet resultSet = statement.executeQuery(refQuery.replace("\n", ""));
+                System.out.println("Referee_name  |  Games Officiated\n");
+                while(resultSet.next()) {
+                    String refName = resultSet.getString("Referee_name");
+                    int gamesOfficiated = resultSet.getInt("Games_officiated");
+                    System.out.println(refName + "  |  " + gamesOfficiated);
+                }
+            } catch(SQLException e) {
+                throw new RuntimeException();
+            }
+        } catch(SQLException e) {
+            throw new RuntimeException();
         }
     }
 
@@ -307,5 +335,6 @@ public class DBBuilder {
 
     public static void main(String[] args) {
         createDatabase();
+        executeQueries();
     }
 }
