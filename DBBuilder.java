@@ -163,7 +163,7 @@ public class DBBuilder {
                         String date = resultSet.getString(2);
                         String time = resultSet.getString(3);
                         String location = resultSet.getString(4);
-                        System.out.printf("Game id: %d, Date: %s, Time: %s, Location: %s",
+                        System.out.printf("Game id: %d,\n Date: %s,\n Time: %s,\n Location: %s\n\n",
                                 gameId, date, time, location);
                     }
                 }

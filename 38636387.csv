@@ -60,7 +60,7 @@ Referee_id,Referee_name,Game_id,Date,Time,Location,Player_id,First_name,Last_nam
 15,Alberto Undiano Mallenco,30,03-11-2023,21:00,Camp Nou,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
 15,Alberto Undiano Mallenco,30,03-11-2023,21:00,Camp Nou,26,Youssef,En-Nesyri,25,Forward,Morocco,Granada CF,Robert Moreno,Jiang Lizhang,9,Soluciones Apex
 1,Carlos Velasco Carballo,31,11-11-2023,21:00,Camp Nou,3,Ansu,Fati,23,Forward,Spain,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
-1,Carlos Velasco Carballo,31,11-11-2023,21:00,Camp Nou,27,Suso,Dani, 28,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
+1,Carlos Velasco Carballo,31,11-11-2023,21:00,Camp Nou,27,Suso,Dani,28,Forward,Spain,CD Leganés,Juan Ramón López Muñiz,María Victoria Pavón Iglesias,23,Deportes Superiores
 5,José Luis González González,32,18-11-2023,16:30,Camp Nou,4,Vinícius,Junior,22,Forward,Brazil,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
 5,José Luis González González,32,18-11-2023,16:30,Camp Nou,30,Kubo,Kubi,21,Forward,Japan,RCD Mallorca,Luis García Plaza,Robert Sarver,25,Grupo de Crecimiento Global
 15,Alberto Undiano Mallenco,33,24-11-2023,21:00,Camp Nou,3,Ansu,Fati,23,Forward,Spain,FC Barcelona,Xavi Hernández,Joan Laporta,10,Socios Campeones
@@ -116,7 +116,7 @@ Referee_id,Referee_name,Game_id,Date,Time,Location,Player_id,First_name,Last_nam
 17,Isidro Díaz de Mera Escuderos,58,09-09-2023,16:30,Mestalla,7,Joaquín,Correa,28,Forward,Argentina,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
 17,Isidro Díaz de Mera Escuderos,58,09-09-2023,16:30,Mestalla,10,Koke,Ruibal,30,Midfielder,Spain,Sevilla FC,Julen Lopetegui,José Castro Carmona,1,Corporación Acme
 20,José Luis Munuera Montero,59,17-09-2023,12:00,Mestalla,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
-20,José Luis Munuera Montero,59,17-09-2023,12:00,Mestalla,12,Casemiro, Iran, 30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
+20,José Luis Munuera Montero,59,17-09-2023,12:00,Mestalla,12,Casemiro, Iran,30,Midfielder,Brazil,Real Sociedad,Imanol Alguacil,Jokin Aperribay,14,Grupo Puerta Dorada
 17,Isidro Díaz de Mera Escuderos,60,23-09-2023,14:00,Mestalla,7,Joaquín,Correa,28,Forward,Argentina,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
 17,Isidro Díaz de Mera Escuderos,60,23-09-2023,14:00,Mestalla,13,Marco,Asensio,26,Forward,Spain,Villarreal CF,Unai Emery,Fernando Roig,7,Maximizar Marketing
 12,César Soto Grado,61,30-09-2023,21:00,Mestalla,8,Luis,Suárez,36,Forward,Uruguay,Valencia CF,Pepe Bordalás,Peter Lim,4,Deportes Supremos
