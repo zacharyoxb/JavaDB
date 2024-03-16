@@ -16,9 +16,10 @@ public class DBBuilder {
     /**
      * Creates the database.
      */
-    public static void createDatabase() {
+    public static void executeZacharysDB() {
         List<String[]> csvArray = readIntoArray();
         putDataIntoDb(csvArray);
+        executeQueries();
     }
 
     /**
@@ -160,6 +161,9 @@ public class DBBuilder {
         }
     }
 
+    /**
+     * Executes Zachary's 4 queries
+     */
     public static void executeQueries() {
         try(Connection connection = DriverManager.getConnection(url)) {
             try(Statement statement = connection.createStatement()) {
@@ -201,11 +205,11 @@ public class DBBuilder {
             }
 
             try(Statement statement = connection.createStatement()) {
-                String ageQuery = "SELECT Team_name, AVG(Age) AS Average_age \n" +
-                "FROM TEAMS\n" +
-                "JOIN PLAYSFOR ON TEAMS.Team_name = PLAYSFOR.Team_name\n" +
-                "JOIN Players ON PLAYSFOR.Player_id = Players.Player_id\n" +
-                "GROUP BY Team_name\n" +
+                String ageQuery = "SELECT Teams.Team_name, AVG(Age) AS Average_age \n" +
+                "FROM Teams \n" +
+                "JOIN PLAYSFOR ON Teams.Team_name = PLAYSFOR.Team_name \n" +
+                "JOIN Players ON PLAYSFOR.Player_id = Players.Player_id \n" +
+                "GROUP BY Teams.Team_name \n" +
                 "HAVING AVG(Age) > 25";
                 System.out.println("\nExecuting query:\n" + ageQuery + "\n");
                 ResultSet resultSet = statement.executeQuery(ageQuery.replace("\n", ""));
@@ -218,6 +222,7 @@ public class DBBuilder {
                 }
                 
             } catch(SQLException e) {
+                e.printStackTrace();
                 throw new RuntimeException();
             }
         } catch(SQLException e) {
@@ -356,7 +361,6 @@ public class DBBuilder {
     }
 
     public static void main(String[] args) {
-        createDatabase();
-        executeQueries();
+        executeZacharysDB();
     }
 }
