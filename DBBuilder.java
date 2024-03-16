@@ -17,16 +17,16 @@ public class DBBuilder {
      * Creates the database.
      */
     public static void executeZacharysDB() {
-        List<String[]> csvArray = readIntoArray();
-        putDataIntoDb(csvArray);
-        executeQueries();
+        List<String[]> csvArray = zacharyReadIntoArray();
+        zacharyPutDataIntoDb(csvArray);
+        zacharyExecuteQueries();
     }
 
     /**
      * Reads csv file into list full of arrays
      * @return list containing csv values
      */
-    public static List<String[]> readIntoArray() {
+    public static List<String[]> zacharyReadIntoArray() {
         String myCsvPath = "38636387.csv";
 
         List<String[]> csvList = new ArrayList<>();
@@ -48,16 +48,15 @@ public class DBBuilder {
      * Puts the data into the database
      * @param csvList list containing csv data
      */
-    public static void putDataIntoDb(List<String[]> csvList) {
+    public static void zacharyPutDataIntoDb(List<String[]> csvList) {
         // establish connection
         try(Connection connection = DriverManager.getConnection(url)) {
             // put table DDL statements into string var
-            String[] allTables = getAllTables();
+            String[] allTables = zacharyGetAllTables();
 
             // make statements
             try(Statement statement = connection.createStatement()) {
-                statement.executeUpdate("DROP DATABASE IF EXISTS LaLiga");
-                statement.executeUpdate("CREATE DATABASE LaLiga");
+                statement.executeUpdate("CREATE DATABASE IF NOT EXISTS LaLiga");
                 statement.executeUpdate("USE LaLiga");
                 for(String table : allTables) {
                     statement.executeUpdate("CREATE TABLE IF NOT EXISTS " + table);
@@ -67,7 +66,7 @@ public class DBBuilder {
             // Go through first time: add all teams and their players/sponsors
             for(String[] row : csvList) {
                 // add to Referees table
-                if(notInTable(connection, "Referees", "Referee_id", Integer.parseInt(row[0]))) {
+                if(zacharyNotInTable(connection, "Referees", "Referee_id", Integer.parseInt(row[0]))) {
                     String insertString = "INSERT INTO Referees (Referee_id, Referee_name) VALUES (?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
                         preparedStatement.setInt(1, Integer.parseInt(row[0]));
@@ -76,7 +75,7 @@ public class DBBuilder {
                     }
                 }
                 // add to Teams table
-                if(notInTable(connection, "Teams", "Team_name", row[12])) {
+                if(zacharyNotInTable(connection, "Teams", "Team_name", row[12])) {
                     String insertString = "INSERT INTO Teams (Team_name, Manager, Owner) VALUES (?, ?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
                         preparedStatement.setString(1, row[12]);
@@ -87,7 +86,7 @@ public class DBBuilder {
                 }
                 
                 // add to Sponsors table
-                if(notInTable(connection, "Sponsors", "Sponsor_id", row[15])) {
+                if(zacharyNotInTable(connection, "Sponsors", "Sponsor_id", row[15])) {
                     String insertString = "INSERT INTO Sponsors (Sponsor_id, Sponsor_name) VALUES (?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
                         preparedStatement.setInt(1, Integer.parseInt(row[15]));
@@ -96,7 +95,7 @@ public class DBBuilder {
                     }
                 }
                 // add to SUPPORTS table
-                if(notInRelationalTable(connection, "SUPPORTS", "Sponsor_id", "Team_name",
+                if(zacharyNotInRelationalTable(connection, "SUPPORTS", "Sponsor_id", "Team_name",
                         row[15], row[12])) {
                     String insertString = "INSERT INTO SUPPORTS (Sponsor_id, Team_name) VALUES (?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
@@ -107,7 +106,7 @@ public class DBBuilder {
                 }
 
                 // add to Players table
-                if(notInTable(connection, "Players", "Player_id", row[6])) {
+                if(zacharyNotInTable(connection, "Players", "Player_id", row[6])) {
                     String insertString = "INSERT INTO Players (Player_id, First_name, Last_name, Age, Position, " +
                             "Nationality) VALUES (?, ?, ?, ?, ?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
@@ -122,7 +121,7 @@ public class DBBuilder {
                 }
 
                 // add to PLAYSFOR table
-                if(notInRelationalTable(connection, "PLAYSFOR","Player_id","Team_name",
+                if(zacharyNotInRelationalTable(connection, "PLAYSFOR","Player_id","Team_name",
                         row[6], row[12])) {
                     String insertString = "INSERT INTO PLAYSFOR (Player_id, Team_name) VALUES (?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
@@ -133,7 +132,7 @@ public class DBBuilder {
                 }
 
                 // add to Games table
-                if(notInTable(connection, "Games", "Game_id", row[2])) {
+                if(zacharyNotInTable(connection, "Games", "Game_id", row[2])) {
                     String insertString = "INSERT INTO Games (Game_id, Date, Time, Location, Referee_id) VALUES (?, ?, ?, ?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
                         preparedStatement.setInt(1, Integer.parseInt(row[2]));
@@ -146,7 +145,7 @@ public class DBBuilder {
                 }
 
                 // add to PLAYS table
-                if(notInRelationalTable(connection, "PLAYS", "Team_name", "Game_id",
+                if(zacharyNotInRelationalTable(connection, "PLAYS", "Team_name", "Game_id",
                         row[12], row[2])) {
                     String insertString = "INSERT INTO PLAYS (Team_name, Game_id) VALUES (?, ?)";
                     try(PreparedStatement preparedStatement = connection.prepareStatement(insertString)) {
@@ -164,7 +163,7 @@ public class DBBuilder {
     /**
      * Executes Zachary's 4 queries
      */
-    public static void executeQueries() {
+    public static void zacharyExecuteQueries() {
         try(Connection connection = DriverManager.getConnection(url)) {
             try(Statement statement = connection.createStatement()) {
                 statement.executeQuery("USE LaLiga");
@@ -222,7 +221,6 @@ public class DBBuilder {
                 }
                 
             } catch(SQLException e) {
-                e.printStackTrace();
                 throw new RuntimeException();
             }
         } catch(SQLException e) {
@@ -234,7 +232,7 @@ public class DBBuilder {
      * Gets all tables in DDL statements
      * @return Array of strings for each table
      */
-    private static String[] getAllTables() {
+    private static String[] zacharyGetAllTables() {
         String refTable = "Referees (" +
                 "Referee_id INT PRIMARY KEY," +
                 "Referee_name VARCHAR(50) NOT NULL" +
@@ -304,7 +302,7 @@ public class DBBuilder {
      * @param columnValue value to check
      * @return true if not in table, false if it is
      */
-    public static <T> boolean notInTable(Connection connection, String tableName, String columnName, T columnValue) {
+    public static <T> boolean zacharyNotInTable(Connection connection, String tableName, String columnName, T columnValue) {
         String sql = String.format("SELECT * FROM %s WHERE %s = ?", tableName, columnName);
 
         try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
@@ -333,7 +331,7 @@ public class DBBuilder {
      * @param keyValue2 second value to check
      * @return true if not in relational table, false if it is
      */
-    public static <T> boolean notInRelationalTable(Connection connection, String tableName, String keyName1,
+    public static <T> boolean zacharyNotInRelationalTable(Connection connection, String tableName, String keyName1,
                                                    String keyName2, T keyValue1, T keyValue2) {
         String sql = String.format("SELECT * FROM %s WHERE %s = ? AND %s = ?", tableName, keyName1, keyName2);
 
